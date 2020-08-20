@@ -26,6 +26,7 @@
 		1AF50D8C24EECB0400CDC057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AF50D8E24EECB0400CDC057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AF50D9424EECB3500CDC057 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1AF50D9624EECD0C00CDC057 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		1AF50D7424EECB0300CDC057 = {
 			isa = PBXGroup;
 			children = (
+				1AF50D9624EECD0C00CDC057 /* README.md */,
 				1AF50D9424EECB3500CDC057 /* .gitignore */,
 				1AF50D7F24EECB0300CDC057 /* Garraio Publikoa */,
 				1AF50D7E24EECB0300CDC057 /* Products */,
