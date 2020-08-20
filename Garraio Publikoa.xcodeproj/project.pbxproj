@@ -15,6 +15,7 @@
 		1AF50D8D24EECB0400CDC057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF50D8B24EECB0400CDC057 /* LaunchScreen.storyboard */; };
 		1AF50D9524EECB3500CDC057 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1AF50D9424EECB3500CDC057 /* .gitignore */; };
 		1AF50D9824EEE9B500CDC057 /* MapsFromApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF50D9724EEE9B500CDC057 /* MapsFromApple.swift */; };
+		1AF50D9A24EEFB8300CDC057 /* MapConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF50D9924EEFB8300CDC057 /* MapConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		1AF50D9424EECB3500CDC057 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		1AF50D9624EECD0C00CDC057 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1AF50D9724EEE9B500CDC057 /* MapsFromApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsFromApple.swift; sourceTree = "<group>"; };
+		1AF50D9924EEFB8300CDC057 /* MapConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		1AF50D7F24EECB0300CDC057 /* Garraio Publikoa */ = {
 			isa = PBXGroup;
 			children = (
+				1AF50D9B24EF2EB500CDC057 /* Models */,
 				1AF50D8024EECB0300CDC057 /* AppDelegate.swift */,
 				1AF50D8224EECB0300CDC057 /* SceneDelegate.swift */,
 				1AF50D8424EECB0300CDC057 /* ViewController.swift */,
@@ -73,6 +76,14 @@
 				1AF50D8E24EECB0400CDC057 /* Info.plist */,
 			);
 			path = "Garraio Publikoa";
+			sourceTree = "<group>";
+		};
+		1AF50D9B24EF2EB500CDC057 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1AF50D9924EEFB8300CDC057 /* MapConfiguration.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AF50D8524EECB0300CDC057 /* ViewController.swift in Sources */,
+				1AF50D9A24EEFB8300CDC057 /* MapConfiguration.swift in Sources */,
 				1AF50D9824EEE9B500CDC057 /* MapsFromApple.swift in Sources */,
 				1AF50D8124EECB0300CDC057 /* AppDelegate.swift in Sources */,
 				1AF50D8324EECB0300CDC057 /* SceneDelegate.swift in Sources */,

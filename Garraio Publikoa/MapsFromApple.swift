@@ -24,6 +24,28 @@ class MapsFromApple {
     ///
     private func initialize(size: CGRect) {
         self.mapView = MKMapView(frame: size)
+        
+        self.setDefaultCenterPoint()
+    }
+    
+    ///
+    /// Sets the default center point of the map.
+    /// The data came from the MapConfigurator object.
+    ///
+    private func setDefaultCenterPoint() {
+        // Check optional.
+        guard let mapView = self.mapView else { return }
+        
+        // Get default data from MapConfiguration object.
+        let lat: Double = MapConfiguration().centerPointLat
+        let lng: Double = MapConfiguration().centerPointLng
+        let centerCoordinate = CLLocationCoordinate2DMake(lat, lng)
+        let latMeters: Double = MapConfiguration().latitudinalMeters
+        let lngMeters: Double = MapConfiguration().longitudinalMeters
+        
+        // Create the region and set it to the map view.
+        let region = MKCoordinateRegion(center: centerCoordinate, latitudinalMeters: latMeters, longitudinalMeters: lngMeters)
+        mapView.setRegion(region, animated: true)
     }
     
     ///
