@@ -8,6 +8,10 @@
 
 import Foundation
 
+enum FileName: String {
+    case bilbobus = "Bilbobus"
+}
+
 class LocalFile {
     
     ///
@@ -16,8 +20,8 @@ class LocalFile {
     /// - Parameter success: 'True' if the JSON file has been read and / or decode correctly, otherwise 'false'.
     /// - Parameter data: The data of the file as Bus.
     ///
-    public func readBusJSON(fileName: String, completion: @escaping(_ success: Bool, _ data: Bus?) -> Void) {
-        if let path = Bundle.main.path(forResource: fileName, ofType: "json") {
+    public func readBusJSON(fileName: FileName, completion: @escaping(_ success: Bool, _ data: Bus?) -> Void) {
+        if let path = Bundle.main.path(forResource: fileName.rawValue, ofType: "json") {
             do {
                 let fileUrl = URL(fileURLWithPath: path)
                 

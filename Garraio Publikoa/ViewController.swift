@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         
         self.addMapsFromApple()
         
-        LocalFile().readBusJSON(fileName: "Bilbobus") { (success, data) in
+        LocalFile().readBusJSON(fileName: FileName.bilbobus) { (success, data) in
             DispatchQueue.main.async {
                 if success, let receivedBusData = data {
                     for busStop in receivedBusData.stops {
