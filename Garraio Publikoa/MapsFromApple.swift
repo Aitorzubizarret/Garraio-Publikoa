@@ -66,4 +66,18 @@ class MapsFromApple {
         }
     }
     
+    ///
+    /// Adds a marker in the maps.
+    /// - Parameter title: The title that will be shown.
+    /// - Parameter lat: Latitude of the marker.
+    /// - Parameter lng: Longitude of the marker.
+    ///
+    public func addMarker(title: String, lat: Double, lng: Double) {
+        let marker = MKPointAnnotation()
+        marker.title = title
+        marker.coordinate = CLLocationCoordinate2D(latitude: lat, longitude: lng)
+        
+        self.mapView?.addAnnotation(marker)
+    }
+    
 }

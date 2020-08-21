@@ -19,6 +19,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         self.addMapsFromApple()
+        
+        LocalFile().readBusJSON(fileName: "Bilbobus") { (success, data) in
+            DispatchQueue.main.async {
+                if success, let receivedBusData = data {
+                    for busStop in receivedBusData.stops {
+                        if let doubleLat = Double(busStop.lat), let doubleLng = Double(busStop.lng) {
+                            self.mapsFromApple?.addMarker(title: busStop.name, lat: doubleLat, lng: doubleLng)
+                        }
+                    }
+                }
+            }
+        }
     }
     
     ///

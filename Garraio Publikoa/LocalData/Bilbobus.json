@@ -1,0 +1,626 @@
+{
+    "info": {
+         "company": "Bilbobus",
+         "type": "Bus",
+         "web": "https://www.bilbao.eus/cs/Satellite/bilbobus/es/inicio"
+     },
+    "stops": [
+        {
+            "id": "1604",
+            "name": "Ganeta Mendia en frente del portal 7",
+            "lat": "43.27541244308709",
+            "lng": "-2.9474208576466827",
+            "linesId": []
+        },
+        {
+            "id": "1605",
+            "name": "Miramarbidea / Eskola",
+            "lat": "43.27539851000626",
+            "lng": "-2.949617612374822",
+            "linesId": [
+                {
+                    "id": "A6"
+                }
+            ]
+        },
+        {
+            "id": "1702",
+            "name": "Miramarbidea en frente del portal 47",
+            "lat": "43.27687714191788",
+            "lng": "-2.9532171918382404",
+            "linesId": [
+                {
+                    "id": "A6"
+                }
+            ]
+        },
+        {
+            "id": "1703",
+            "name": "Miramarbidea / Aranekobidea",
+            "lat": "43.27654479927196",
+            "lng": "-2.953844118068529",
+            "linesId": [
+                {
+                    "id": "A6"
+                }
+            ]
+        },
+        {
+            "id": "1306",
+            "name": "Ugarteko / Ibarrekolanda",
+            "lat": "43.27384094163082",
+            "lng": "-2.955412707511156",
+            "linesId": []
+        },
+        {
+            "id": "1414",
+            "name": "Lehendakari Aguirre / en frente de Bidarte",
+            "lat": "43.27192549800902",
+            "lng": "-2.9500963461003993",
+            "linesId": [
+                {
+                    "id": "A4"
+                },
+                {
+                    "id": "10"
+                },
+                {
+                    "id": "11"
+                },
+                {
+                    "id": "13"
+                },
+                {
+                    "id": "18"
+                },
+                {
+                    "id": "71"
+                }
+            ]
+        },
+        {
+            "id": "1413",
+            "name": "Lehendakari Aguirre / Hizkuntza Eskola",
+            "lat": "43.2717165470877",
+            "lng": "-2.9449359246763356",
+            "linesId": [
+                {
+                    "id": "10"
+                },
+                {
+                    "id": "13"
+                },
+                {
+                    "id": "18"
+                },
+                {
+                    "id": "71"
+                }
+            ]
+        },
+        {
+            "id": "1424",
+            "name": "San Pío X / F.Maciá",
+            "lat": "43.27094668569597",
+            "lng": "-2.941542898846653",
+            "linesId": [
+                {
+                    "id": "10"
+                },
+                {
+                    "id": "13"
+                },
+                {
+                    "id": "18"
+                }
+            ]
+        },
+        {
+            "id": "6107",
+            "name": "Deustuko Zubia / Zubiarte",
+            "lat": "43.26781195784672",
+            "lng": "-2.939729499289703",
+            "linesId": [
+                {
+                    "id": "10"
+                },
+                {
+                    "id": "13"
+                },
+                {
+                    "id": "18"
+                }
+            ]
+        },
+        {
+            "id": "6109",
+            "name": "Elcano 2",
+            "lat": "43.26547746850187",
+            "lng": "-2.9368000099554843",
+            "linesId": [
+                {
+                    "id": "10"
+                },
+                {
+                    "id": "13"
+                },
+                {
+                    "id": "18"
+                }
+            ]
+        },
+        {
+            "id": "6219",
+            "name": "Moyúa 4",
+            "lat": "43.26288329419797",
+            "lng": "-2.9356375173009694",
+            "linesId": [
+                {
+                    "id": "A3"
+                },
+                {
+                    "id": "10"
+                },
+                {
+                    "id": "13"
+                },
+                {
+                    "id": "18"
+                }
+            ]
+        },
+        {
+            "id": "6115",
+            "name": "Gran Vía 37",
+            "lat": "43.26269076197702",
+            "lng": "-2.933750996431559",
+            "linesId": [
+                {
+                    "id": "10"
+                },
+                {
+                    "id": "28"
+                },
+                {
+                    "id": "56"
+                },
+                {
+                    "id": "62"
+                },
+                {
+                    "id": "72"
+                },
+                {
+                    "id": "77"
+                },
+                {
+                    "id": "85"
+                }
+            ]
+        },
+        {
+            "id": "6113",
+            "name": "Gran Vía 7",
+            "lat": "43.26152994640017",
+            "lng": "-2.928476580884651",
+            "linesId": [
+                {
+                    "id": "A5"
+                },
+                {
+                    "id": "BT"
+                },
+                {
+                    "id": "10"
+                },
+                {
+                    "id": "28"
+                },
+                {
+                    "id": "56"
+                },
+                {
+                    "id": "62"
+                },
+                {
+                    "id": "72"
+                },
+                {
+                    "id": "77"
+                },
+                {
+                    "id": "85"
+                }
+            ]
+        },
+        {
+            "id": "6130",
+            "name": "Gran Vía 2",
+            "lat": "43.26147889006099",
+            "lng": "-2.927827856851289",
+            "linesId": [
+                {
+                    "id": "A1"
+                },
+                {
+                    "id": "10"
+                },
+                {
+                    "id": "40"
+                }
+            ]
+        },
+        {
+            "id": "6114",
+            "name": "Gran Vía 36",
+            "lat": "43.26270986739097",
+            "lng": "-2.9334572387021574",
+            "linesId": [
+                {
+                    "id": "A7"
+                },
+                {
+                    "id": "10"
+                },
+                {
+                    "id": "28"
+                },
+                {
+                    "id": "56"
+                },
+                {
+                    "id": "72"
+                },
+                {
+                    "id": "77"
+                }
+            ]
+        },
+        {
+            "id": "6110",
+            "name": "Elcano 3",
+            "lat": "43.263930990878336",
+            "lng": "-2.935556936555513",
+            "linesId": [
+                {
+                    "id": "A7"
+                },
+                {
+                    "id": "10"
+                },
+                {
+                    "id": "13"
+                }
+            ]
+        },
+        {
+            "id": "6125",
+            "name": "Museo 1 / Henao",
+            "lat": "43.265864736173825",
+            "lng": "-2.936982208468321",
+            "linesId": [
+                {
+                    "id": "A7"
+                },
+                {
+                    "id": "10"
+                },
+                {
+                    "id": "13"
+                },
+                {
+                    "id": "18"
+                }
+            ]
+        },
+        {
+            "id": "6204",
+            "name": "Deustuko Zubia",
+            "lat": "43.267576321568185",
+            "lng": "-2.9393700566204557",
+            "linesId": [
+                {
+                    "id": "A7"
+                },
+                {
+                    "id": "10"
+                },
+                {
+                    "id": "13"
+                },
+                {
+                    "id": "18"
+                }
+            ]
+        },
+        {
+            "id": "1425",
+            "name": "San Pío X / H.Aguirre",
+            "lat": "43.271026024215",
+            "lng": "-2.941239878666445",
+            "linesId": [
+                {
+                    "id": "A7"
+                },
+                {
+                    "id": "10"
+                },
+                {
+                    "id": "13"
+                },
+                {
+                    "id": "18"
+                }
+            ]
+        },
+        {
+            "id": "1423",
+            "name": "San Pedro / Eliza",
+            "lat": "43.271947806075474",
+            "lng": "-2.9450853957722547",
+            "linesId": [
+                {
+                    "id": "A6"
+                },
+                {
+                    "id": "A7"
+                },
+                {
+                    "id": "10"
+                },
+                {
+                    "id": "13"
+                },
+                {
+                    "id": "18"
+                },
+                {
+                    "id": "71"
+                }
+            ]
+        },
+        {
+            "id": "1415",
+            "name": "Lehendakari Aguirre 42 / Bidarte",
+            "lat": "43.272121575479495",
+            "lng": "-2.9505942087362915",
+            "linesId": [
+                {
+                    "id": "A7"
+                },
+                {
+                    "id": "10"
+                },
+                {
+                    "id": "13"
+                },
+                {
+                    "id": "18"
+                },
+                {
+                    "id": "71"
+                }
+            ]
+        },
+        {
+            "id": "1411",
+            "name": "Ibarrekolanda 19",
+            "lat": "43.273652240001724",
+            "lng": "-2.9544278519277545",
+            "linesId": [
+                {
+                    "id": "A7"
+                }
+            ]
+        },
+        {
+            "id": "1712",
+            "name": "Monte Elorriaga",
+            "lat": "43.27538311626563",
+            "lng": "-2.953643318009604",
+            "linesId": [
+                {
+                    "id": "A6"
+                }
+            ]
+        },
+        {
+            "id": "1701",
+            "name": "Aranekobidea / Cementerio",
+            "lat": "43.27544806274924",
+            "lng": "-2.9523955725224766",
+            "linesId": [
+                {
+                    "id": "A6"
+                }
+            ]
+        },
+        {
+            "id": "1401",
+            "name": "Araneko en frente del portal 22",
+            "lat": "43.274140420793564",
+            "lng": "-2.94974139187303",
+            "linesId": [
+                {
+                    "id": "A6"
+                }
+            ]
+        },
+        {
+            "id": "1601",
+            "name": "Araneko 17",
+            "lat": "43.27409898511566",
+            "lng": "-2.9484594192014417",
+            "linesId": [
+                {
+                    "id": "A6"
+                }
+            ]
+        },
+        {
+            "id": "1603",
+            "name": "Egileor 4",
+            "lat": "43.274474567193614",
+            "lng": "-2.9471995607698833",
+            "linesId": []
+        }
+    ],
+    "lines": [
+        {
+            "id": "01",
+            "name": "Arangoiti - Plaza Biribila",
+            "web": "https://www.bilbao.eus/cs/Satellite/bilbobus/es/linea?temporada_linea=VE&codLinea=01",
+            "updatedOn": "2020/06/22",
+            "operatesAt": "day",
+            "direction": [
+                {
+                    "name": "Ida",
+                    "from": "Arangoitia",
+                    "to": "Plaza Biribila",
+                    "timetable": [
+                        {
+                            "id": "",
+                            "name": "WorkingDays",
+                            "startTime": "06:20",
+                            "endTime": "22:00",
+                            "journeyDurationMin": 20
+                        },
+                        {
+                            "id": "",
+                            "name": "Saturdays",
+                            "startTime": "06:30",
+                            "endTime": "22:30",
+                            "journeyDurationMin": 30
+                        },
+                        {
+                            "id": "",
+                            "name": "holydays",
+                            "startTime": "07:30",
+                            "endTime": "22:30",
+                            "journeyDurationMin": 30
+                        }
+                    ],
+                    "stopsId": [
+                        {
+                            "id": "1604"
+                        },
+                        {
+                            "id": "1605"
+                        },
+                        {
+                            "id": "1702"
+                        },
+                        {
+                            "id": "1703"
+                        },
+                        {
+                            "id": "1306"
+                        },
+                        {
+                            "id": "1414"
+                        },
+                        {
+                            "id": "1413"
+                        },
+                        {
+                            "id": "1424"
+                        },
+                        {
+                            "id": "6107"
+                        },
+                        {
+                            "id": "6109"
+                        },
+                        {
+                            "id": "6219"
+                        },
+                        {
+                            "id": "6115"
+                        },
+                        {
+                            "id": "6113"
+                        },
+                        {
+                            "id": "6130"
+                        }
+                    ]
+                },
+                {
+                    "name": "Vuelta",
+                    "from": "Plaza Biribila",
+                    "to": "Arangoitia",
+                    "timetable": [
+                        {
+                            "id": "",
+                            "name": "WorkingDays",
+                            "startTime": "06:30",
+                            "endTime": "22:30",
+                            "journeyDurationMin": 20
+                        },
+                        {
+                            "id": "",
+                            "name": "Saturdays",
+                            "startTime": "07:00",
+                            "endTime": "22:30",
+                            "journeyDurationMin": 30
+                        },
+                        {
+                            "id": "",
+                            "name": "holydays",
+                            "startTime": "07:30",
+                            "endTime": "22:30",
+                            "journeyDurationMin": 30
+                        }
+                    ],
+                    "stopsId": [
+                        {
+                            "id": "6130"
+                        },
+                        {
+                            "id": "6114"
+                        },
+                        {
+                            "id": "6110"
+                        },
+                        {
+                            "id": "6125"
+                        },
+                        {
+                            "id": "6204"
+                        },
+                        {
+                            "id": "1425"
+                        },
+                        {
+                            "id": "1423"
+                        },
+                        {
+                            "id": "1415"
+                        },
+                        {
+                            "id": "1411"
+                        },
+                        {
+                            "id": "1712"
+                        },
+                        {
+                            "id": "1701"
+                        },
+                        {
+                            "id": "1401"
+                        },
+                        {
+                            "id": "1601"
+                        },
+                        {
+                            "id": "1603"
+                        },
+                        {
+                            "id": "1604"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

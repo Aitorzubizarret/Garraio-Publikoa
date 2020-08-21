@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A9943A024F0169200FC6D99 /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A99439F24F0169200FC6D99 /* Bus.swift */; };
+		1A9943A624F05C6C00FC6D99 /* LocalFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9943A524F05C6C00FC6D99 /* LocalFile.swift */; };
 		1AF50D8124EECB0300CDC057 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF50D8024EECB0300CDC057 /* AppDelegate.swift */; };
 		1AF50D8324EECB0300CDC057 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF50D8224EECB0300CDC057 /* SceneDelegate.swift */; };
 		1AF50D8524EECB0300CDC057 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF50D8424EECB0300CDC057 /* ViewController.swift */; };
@@ -16,9 +18,12 @@
 		1AF50D9524EECB3500CDC057 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1AF50D9424EECB3500CDC057 /* .gitignore */; };
 		1AF50D9824EEE9B500CDC057 /* MapsFromApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF50D9724EEE9B500CDC057 /* MapsFromApple.swift */; };
 		1AF50D9A24EEFB8300CDC057 /* MapConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF50D9924EEFB8300CDC057 /* MapConfiguration.swift */; };
+		1AF50DA024EF467800CDC057 /* Bilbobus.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AF50D9F24EF467800CDC057 /* Bilbobus.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A99439F24F0169200FC6D99 /* Bus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
+		1A9943A524F05C6C00FC6D99 /* LocalFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFile.swift; sourceTree = "<group>"; };
 		1AF50D7D24EECB0300CDC057 /* Garraio Publikoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Garraio Publikoa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF50D8024EECB0300CDC057 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AF50D8224EECB0300CDC057 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +36,7 @@
 		1AF50D9624EECD0C00CDC057 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1AF50D9724EEE9B500CDC057 /* MapsFromApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsFromApple.swift; sourceTree = "<group>"; };
 		1AF50D9924EEFB8300CDC057 /* MapConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapConfiguration.swift; sourceTree = "<group>"; };
+		1AF50D9F24EF467800CDC057 /* Bilbobus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Bilbobus.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A9943A224F05BC000FC6D99 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1A9943A524F05C6C00FC6D99 /* LocalFile.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		1AF50D7424EECB0300CDC057 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +79,8 @@
 		1AF50D7F24EECB0300CDC057 /* Garraio Publikoa */ = {
 			isa = PBXGroup;
 			children = (
+				1A9943A224F05BC000FC6D99 /* Utils */,
+				1AF50D9E24EF465400CDC057 /* LocalData */,
 				1AF50D9B24EF2EB500CDC057 /* Models */,
 				1AF50D8024EECB0300CDC057 /* AppDelegate.swift */,
 				1AF50D8224EECB0300CDC057 /* SceneDelegate.swift */,
@@ -82,8 +98,17 @@
 			isa = PBXGroup;
 			children = (
 				1AF50D9924EEFB8300CDC057 /* MapConfiguration.swift */,
+				1A99439F24F0169200FC6D99 /* Bus.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		1AF50D9E24EF465400CDC057 /* LocalData */ = {
+			isa = PBXGroup;
+			children = (
+				1AF50D9F24EF467800CDC057 /* Bilbobus.json */,
+			);
+			path = LocalData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +173,7 @@
 				1AF50D8D24EECB0400CDC057 /* LaunchScreen.storyboard in Resources */,
 				1AF50D8A24EECB0400CDC057 /* Assets.xcassets in Resources */,
 				1AF50D8824EECB0300CDC057 /* Main.storyboard in Resources */,
+				1AF50DA024EF467800CDC057 /* Bilbobus.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +188,8 @@
 				1AF50D9A24EEFB8300CDC057 /* MapConfiguration.swift in Sources */,
 				1AF50D9824EEE9B500CDC057 /* MapsFromApple.swift in Sources */,
 				1AF50D8124EECB0300CDC057 /* AppDelegate.swift in Sources */,
+				1A9943A624F05C6C00FC6D99 /* LocalFile.swift in Sources */,
+				1A9943A024F0169200FC6D99 /* Bus.swift in Sources */,
 				1AF50D8324EECB0300CDC057 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
