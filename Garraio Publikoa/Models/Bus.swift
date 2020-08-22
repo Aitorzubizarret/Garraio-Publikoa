@@ -18,6 +18,7 @@ struct BusInfo: Codable {
     let company: String
     let type: String
     let web: String
+    let place: String
 }
 
 struct BusStop: Codable {

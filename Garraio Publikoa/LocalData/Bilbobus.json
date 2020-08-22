@@ -2,7 +2,8 @@
     "info": {
          "company": "Bilbobus",
          "type": "Bus",
-         "web": "https://www.bilbao.eus/cs/Satellite/bilbobus/es/inicio"
+         "web": "https://www.bilbao.eus/cs/Satellite/bilbobus/es/inicio",
+         "place": "Bilbo"
      },
     "stops": [
         {
