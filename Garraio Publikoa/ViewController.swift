@@ -25,7 +25,7 @@ class ViewController: UIViewController {
                 if success, let receivedBusData = data {
                     for busStop in receivedBusData.stops {
                         if let doubleLat = Double(busStop.lat), let doubleLng = Double(busStop.lng) {
-                            self.mapsFromApple?.addMarker(title: busStop.name, lat: doubleLat, lng: doubleLng)
+                            self.mapsFromApple?.addMarker(id: busStop.id, lat: doubleLat, lng: doubleLng)
                         }
                     }
                 }

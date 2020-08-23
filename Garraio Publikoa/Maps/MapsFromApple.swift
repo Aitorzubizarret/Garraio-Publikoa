@@ -9,7 +9,7 @@
 import UIKit
 import MapKit
 
-class MapsFromApple {
+class MapsFromApple: NSObject {
     
     // MARK: - Properties
     
@@ -24,6 +24,7 @@ class MapsFromApple {
     ///
     private func initialize(size: CGRect) {
         self.mapView = MKMapView(frame: size)
+        self.mapView?.delegate = self // MKMapViewDelegate
         
         self.setDefaultCenterPoint()
     }
@@ -68,16 +69,39 @@ class MapsFromApple {
     
     ///
     /// Adds a marker in the maps.
-    /// - Parameter title: The title that will be shown.
+    /// - Parameter id: The id that will be shown.
     /// - Parameter lat: Latitude of the marker.
     /// - Parameter lng: Longitude of the marker.
     ///
-    public func addMarker(title: String, lat: Double, lng: Double) {
+    public func addMarker(id asTitle: String, lat: Double, lng: Double) {
         let marker = MKPointAnnotation()
-        marker.title = title
         marker.coordinate = CLLocationCoordinate2D(latitude: lat, longitude: lng)
+        marker.title = asTitle
         
         self.mapView?.addAnnotation(marker)
     }
+}
+
+extension MapsFromApple: MKMapViewDelegate {
     
+    ///
+    /// Method to draw the markers in the map.
+    ///
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        
+        let identifier: String = "customMarker"
+        
+        var markerView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier)
+        
+        if markerView == nil {
+            markerView = MKAnnotationView(annotation: annotation, reuseIdentifier: identifier)
+            markerView!.canShowCallout = true // Shows the annotation title after tapping on the annotation icon.
+        } else {
+            markerView!.annotation = annotation
+        }
+        
+        markerView!.image = MapMarker().createImageWithText(text: "BUS")
+        
+        return markerView
+    }
 }
