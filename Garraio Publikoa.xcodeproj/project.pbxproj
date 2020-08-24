@@ -8,9 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		1A13E30524F1BD3E005B21F0 /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A13E30424F1BD3E005B21F0 /* Template.swift */; };
+		1A69208F24F3D96F00A87389 /* Lurraldebus.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A69208E24F3D96F00A87389 /* Lurraldebus.json */; };
+		1A69209324F3DBFD00A87389 /* TUC.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A69209224F3DBFD00A87389 /* TUC.json */; };
+		1A69209524F3DD7E00A87389 /* Alavabus.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A69209424F3DD7E00A87389 /* Alavabus.json */; };
 		1A8573B824F171B000E19FCE /* MapMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8573B724F171B000E19FCE /* MapMarker.swift */; };
 		1A9943A024F0169200FC6D99 /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A99439F24F0169200FC6D99 /* Bus.swift */; };
 		1A9943A624F05C6C00FC6D99 /* LocalFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9943A524F05C6C00FC6D99 /* LocalFile.swift */; };
+		1A9943A824F08CFD00FC6D99 /* DBus.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A9943A724F08CFD00FC6D99 /* DBus.json */; };
+		1A9943AA24F0906900FC6D99 /* Tuvisa.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A9943A924F0906900FC6D99 /* Tuvisa.json */; };
+		1A9943AC24F092D200FC6D99 /* Udalbus.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A9943AB24F092D200FC6D99 /* Udalbus.json */; };
+		1A9943AE24F095C900FC6D99 /* Bizkaibus.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A9943AD24F095C900FC6D99 /* Bizkaibus.json */; };
+		1A9943B024F0980500FC6D99 /* Irunbus.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A9943AF24F0980500FC6D99 /* Irunbus.json */; };
 		1AF50D8124EECB0300CDC057 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF50D8024EECB0300CDC057 /* AppDelegate.swift */; };
 		1AF50D8324EECB0300CDC057 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF50D8224EECB0300CDC057 /* SceneDelegate.swift */; };
 		1AF50D8524EECB0300CDC057 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF50D8424EECB0300CDC057 /* ViewController.swift */; };
@@ -25,9 +33,17 @@
 
 /* Begin PBXFileReference section */
 		1A13E30424F1BD3E005B21F0 /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
+		1A69208E24F3D96F00A87389 /* Lurraldebus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Lurraldebus.json; sourceTree = "<group>"; };
+		1A69209224F3DBFD00A87389 /* TUC.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TUC.json; sourceTree = "<group>"; };
+		1A69209424F3DD7E00A87389 /* Alavabus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Alavabus.json; sourceTree = "<group>"; };
 		1A8573B724F171B000E19FCE /* MapMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMarker.swift; sourceTree = "<group>"; };
 		1A99439F24F0169200FC6D99 /* Bus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
 		1A9943A524F05C6C00FC6D99 /* LocalFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFile.swift; sourceTree = "<group>"; };
+		1A9943A724F08CFD00FC6D99 /* DBus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DBus.json; sourceTree = "<group>"; };
+		1A9943A924F0906900FC6D99 /* Tuvisa.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Tuvisa.json; sourceTree = "<group>"; };
+		1A9943AB24F092D200FC6D99 /* Udalbus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Udalbus.json; sourceTree = "<group>"; };
+		1A9943AD24F095C900FC6D99 /* Bizkaibus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Bizkaibus.json; sourceTree = "<group>"; };
+		1A9943AF24F0980500FC6D99 /* Irunbus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Irunbus.json; sourceTree = "<group>"; };
 		1AF50D7D24EECB0300CDC057 /* Garraio Publikoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Garraio Publikoa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF50D8024EECB0300CDC057 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AF50D8224EECB0300CDC057 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,11 +115,11 @@
 				1AF50D8024EECB0300CDC057 /* AppDelegate.swift */,
 				1AF50D8224EECB0300CDC057 /* SceneDelegate.swift */,
 				1AF50D8424EECB0300CDC057 /* ViewController.swift */,
+				1A13E30424F1BD3E005B21F0 /* Template.swift */,
 				1AF50D8624EECB0300CDC057 /* Main.storyboard */,
 				1AF50D8924EECB0400CDC057 /* Assets.xcassets */,
 				1AF50D8B24EECB0400CDC057 /* LaunchScreen.storyboard */,
 				1AF50D8E24EECB0400CDC057 /* Info.plist */,
-				1A13E30424F1BD3E005B21F0 /* Template.swift */,
 			);
 			path = "Garraio Publikoa";
 			sourceTree = "<group>";
@@ -121,6 +137,14 @@
 			isa = PBXGroup;
 			children = (
 				1AF50D9F24EF467800CDC057 /* Bilbobus.json */,
+				1A9943A724F08CFD00FC6D99 /* DBus.json */,
+				1A9943A924F0906900FC6D99 /* Tuvisa.json */,
+				1A9943AB24F092D200FC6D99 /* Udalbus.json */,
+				1A9943AD24F095C900FC6D99 /* Bizkaibus.json */,
+				1A9943AF24F0980500FC6D99 /* Irunbus.json */,
+				1A69208E24F3D96F00A87389 /* Lurraldebus.json */,
+				1A69209224F3DBFD00A87389 /* TUC.json */,
+				1A69209424F3DD7E00A87389 /* Alavabus.json */,
 			);
 			path = LocalData;
 			sourceTree = "<group>";
@@ -185,9 +209,17 @@
 			files = (
 				1AF50D9524EECB3500CDC057 /* .gitignore in Resources */,
 				1AF50D8D24EECB0400CDC057 /* LaunchScreen.storyboard in Resources */,
+				1A9943B024F0980500FC6D99 /* Irunbus.json in Resources */,
 				1AF50D8A24EECB0400CDC057 /* Assets.xcassets in Resources */,
+				1A9943A824F08CFD00FC6D99 /* DBus.json in Resources */,
+				1A69209524F3DD7E00A87389 /* Alavabus.json in Resources */,
+				1A9943AC24F092D200FC6D99 /* Udalbus.json in Resources */,
+				1A69208F24F3D96F00A87389 /* Lurraldebus.json in Resources */,
 				1AF50D8824EECB0300CDC057 /* Main.storyboard in Resources */,
+				1A69209324F3DBFD00A87389 /* TUC.json in Resources */,
+				1A9943AA24F0906900FC6D99 /* Tuvisa.json in Resources */,
 				1AF50DA024EF467800CDC057 /* Bilbobus.json in Resources */,
+				1A9943AE24F095C900FC6D99 /* Bizkaibus.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

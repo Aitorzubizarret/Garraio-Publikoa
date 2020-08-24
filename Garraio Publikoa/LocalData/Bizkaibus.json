@@ -1,0 +1,10 @@
+{
+    "info": {
+        "company": "Bizkaibus",
+        "type": "Bus",
+        "web": "https://web.bizkaia.eus/eu/web/bizkaibus",
+        "place": "Bizkaia"
+    },
+    "stops": [],
+    "lines": []
+}

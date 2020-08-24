@@ -1,0 +1,10 @@
+{
+    "info": {
+        "company": "Lurraldebus",
+        "type": "Bus",
+        "web": "http://www.lurraldebus.eus/",
+        "place": "Gipuzkoa"
+    },
+    "stops": [],
+    "lines": []
+}

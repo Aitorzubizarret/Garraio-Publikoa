@@ -1,0 +1,10 @@
+{
+    "info": {
+        "company": "Alavabus",
+        "type": "Bus",
+        "web": "http://www.araba.eus/alavabus/",
+        "place": "Araba"
+    },
+    "stops": [],
+    "lines": []
+}

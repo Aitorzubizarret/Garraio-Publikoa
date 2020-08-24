@@ -1,0 +1,10 @@
+{
+    "info": {
+        "company": "Udalbus",
+        "type": "Bus",
+        "web": "https://www.euskotren.eus/en/autobus/udalbus",
+        "place": "Eibar"
+    },
+    "stops": [],
+    "lines": []
+}
