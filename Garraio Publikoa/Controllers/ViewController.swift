@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     // MARK: - Properties
     var mapsFromApple: MapsFromApple?
+    var markerListViewModel: MarkerListViewModel = MarkerListViewModel()
     
     // MARK: - Methods
     
@@ -20,17 +21,9 @@ class ViewController: UIViewController {
         
         self.addMapsFromApple()
         
-        LocalFile().readBusJSON(fileName: FileName.bilbobus) { (success, data) in
-            DispatchQueue.main.async {
-                if success, let receivedBusData = data {
-                    for busStop in receivedBusData.stops {
-                        if let doubleLat = Double(busStop.lat), let doubleLng = Double(busStop.lng) {
-                            self.mapsFromApple?.addMarker(id: busStop.id, lat: doubleLat, lng: doubleLng)
-                        }
-                    }
-                }
-            }
-        }
+        self.bind()
+        
+        self.getMarkersFromLocalData()
     }
     
     ///
@@ -42,6 +35,22 @@ class ViewController: UIViewController {
         guard let maps = self.mapsFromApple else { return }
         
         self.view.addSubview(maps.getMapView(size: self.view.bounds)) // Adds the view (with the maps enbedded) into our main view.
+    }
+    
+    ///
+    /// Gets new data from the ViewModel.
+    ///
+    private func bind() {
+        self.markerListViewModel.binding = {
+            self.mapsFromApple?.addMarkers(markerList: self.markerListViewModel.markerList)
+        }
+    }
+    
+    ///
+    /// Gets marker data from local JSON files.
+    ///
+    private func getMarkersFromLocalData() {
+        self.markerListViewModel.getLocalDataMarkers()
     }
 
 }

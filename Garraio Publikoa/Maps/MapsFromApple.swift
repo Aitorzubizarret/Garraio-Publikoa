@@ -80,6 +80,15 @@ class MapsFromApple: NSObject {
         
         self.mapView?.addAnnotation(marker)
     }
+    
+    ///
+    /// Adds a marker list in the maps.
+    ///
+    public func addMarkers(markerList: [Marker]) {
+        for marker in markerList {
+            self.addMarker(id: marker.id, lat: marker.lat, lng: marker.lng)
+        }
+    }
 }
 
 extension MapsFromApple: MKMapViewDelegate {
