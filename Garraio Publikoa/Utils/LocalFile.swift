@@ -10,6 +10,14 @@ import Foundation
 
 enum FileName: String {
     case bilbobus = "Bilbobus"
+    case dbus = "DBus"
+    case tuvisa = "Tuvisa"
+    case udalbus = "Udalbus"
+    case bizkaibus = "Bizkaibus"
+    case irunbus = "Irunbus"
+    case lurraldebus = "Lurraldebus"
+    case tuc = "TUC"
+    case alavabus = "Alavabus"
 }
 
 class LocalFile {
