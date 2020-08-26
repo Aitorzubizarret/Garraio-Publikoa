@@ -5,6 +5,989 @@
         "web": "https://www.euskotren.eus/en/autobus/udalbus",
         "place": "Eibar"
     },
-    "stops": [],
-    "lines": []
+    "stops": [
+        Tekniker - Amaña
+        {
+            "id": "",
+            "name": "Tekniker",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Debegesa",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Saratsuegi",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Iparragirre",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "AZITAIN",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "BARRENA",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "URKIZU",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "AZOKA / MERCADO",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "POSTA ETXE / CORREOS",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "SAN JUAN",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "LEGARRE GAIN 9",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "LEGARRE GAIN 17",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "LEGARRE Bajo",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "TORREKUA",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "WENCESLAO ORBEA",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "ZIRIAKO AGIRRE",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "ASOLA IGARTZA",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "TIBURCIO ANITUA 21",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "TIBURCIO ANITUA 25",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        }
+        
+        Amaña - Tekniker
+        TIBURCIO ANITUA 25
+        Unibertsitatea
+        OTAOLA
+        ESCUELA DE ARMERIA
+        POLIKIROLDEGIA
+        IPURUA
+        SOSTOATARREN
+        UBITXA
+        PAZIANO AROSA
+        POLONIA ETXEBARRIA
+        URKI
+        UBITXA
+        UNTZAGA
+        BIDEBARRIETA 28
+        URTZAILE
+        TXONTA
+        AGIÑASPI
+        BARRENA
+        AZITAIN
+        IPARRAGIRRE
+        SARATSUEGI
+        Debegesa
+        Tekniker
+        
+        {
+            "id": "",
+            "name": "Tiburcio Anitua 25 / Amaña",
+            "lat": "43.181502",
+            "lng": "-2.486424",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Tiburcio Anitua 21",
+            "lat": "43.181935",
+            "lng": "-2.484850",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Unibertsitatea",
+            "lat": "43.180189",
+            "lng": "-2.488182",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Unibertsitatea",
+            "lat": "43.180259",
+            "lng": "-2.487058",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Otaola",
+            "lat": "43.181521",
+            "lng": "-2.483120",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Armeria Eskola",
+            "lat": "43.183509",
+            "lng": "-2.478219",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Polikiroldegia",
+            "lat": "43.182395",
+            "lng": "-2.478906",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Ipurua",
+            "lat": "43.181931",
+            "lng": "-2.474796",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Sostoatarren",
+            "lat": "43.182219",
+            "lng": "-2.473566",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Ubitxa",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Paziano Arosa",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Polonia Etxeberria",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Urki",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Ubitxa",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Untzaga",
+            "lat": "43.185183",
+            "lng": "-2.472483",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Untzaga",
+            "lat": "43.183992",
+            "lng": "-2.47306",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Bidebarrieta 28",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Urtzaile",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Txonta",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Agiñazpi",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Barrena",
+            "lat": "43.188946",
+            "lng": "-2.458831",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Barrena",
+            "lat": "43.189354",
+            "lng": "-2.457712",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Azitain",
+            "lat": "43.1898",
+            "lng": "-2.454789",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Azitain",
+            "lat": "43.189875",
+            "lng": "-2.45514",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Iparragirre",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Saratsuegi",
+            "lat": "43.1879887",
+            "lng": "-2.4574285",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Debegesa",
+            "lat": "43.1949114",
+            "lng": "-2.4525891",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Erisono",
+            "lat": "43.196747",
+            "lng": "-2.454903",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "id": "",
+            "name": "Tekniker",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                {
+                    "id": ""
+                }
+            ]
+        }
+    ],
+    "lines": [
+        {
+            "id": "58",
+            "name": "Udalbus Express",
+            "web": "",
+            "updatedOn": "",
+            "operatesAt": "day",
+            "direction": [
+                {
+                    "name": "Ida",
+                    "from": "Arangoitia",
+                    "to": "Plaza Biribila",
+                    "timetable": [
+                        {
+                            "id": "",
+                            "name": "WorkingDays",
+                            "startTime": "06:20",
+                            "endTime": "22:00",
+                            "journeyDurationMin": 20
+                        },
+                        {
+                            "id": "",
+                            "name": "Saturdays",
+                            "startTime": "06:30",
+                            "endTime": "22:30",
+                            "journeyDurationMin": 30
+                        },
+                        {
+                            "id": "",
+                            "name": "holydays",
+                            "startTime": "07:30",
+                            "endTime": "22:30",
+                            "journeyDurationMin": 30
+                        }
+                    ],
+                    "stopsId": [
+                        {
+                            "id": "1604"
+                        },
+                        {
+                            "id": "1605"
+                        },
+                        {
+                            "id": "1702"
+                        },
+                        {
+                            "id": "1703"
+                        },
+                        {
+                            "id": "1306"
+                        },
+                        {
+                            "id": "1414"
+                        },
+                        {
+                            "id": "1413"
+                        },
+                        {
+                            "id": "1424"
+                        },
+                        {
+                            "id": "6107"
+                        },
+                        {
+                            "id": "6109"
+                        },
+                        {
+                            "id": "6219"
+                        },
+                        {
+                            "id": "6115"
+                        },
+                        {
+                            "id": "6113"
+                        },
+                        {
+                            "id": "6130"
+                        }
+                    ]
+                },
+                {
+                    "name": "Vuelta",
+                    "from": "Plaza Biribila",
+                    "to": "Arangoitia",
+                    "timetable": [
+                        {
+                            "id": "",
+                            "name": "WorkingDays",
+                            "startTime": "06:30",
+                            "endTime": "22:30",
+                            "journeyDurationMin": 20
+                        },
+                        {
+                            "id": "",
+                            "name": "Saturdays",
+                            "startTime": "07:00",
+                            "endTime": "22:30",
+                            "journeyDurationMin": 30
+                        },
+                        {
+                            "id": "",
+                            "name": "holydays",
+                            "startTime": "07:30",
+                            "endTime": "22:30",
+                            "journeyDurationMin": 30
+                        }
+                    ],
+                    "stopsId": [
+                        {
+                            "id": "6130"
+                        },
+                        {
+                            "id": "6114"
+                        },
+                        {
+                            "id": "6110"
+                        },
+                        {
+                            "id": "6125"
+                        },
+                        {
+                            "id": "6204"
+                        },
+                        {
+                            "id": "1425"
+                        },
+                        {
+                            "id": "1423"
+                        },
+                        {
+                            "id": "1415"
+                        },
+                        {
+                            "id": "1411"
+                        },
+                        {
+                            "id": "1712"
+                        },
+                        {
+                            "id": "1701"
+                        },
+                        {
+                            "id": "1401"
+                        },
+                        {
+                            "id": "1601"
+                        },
+                        {
+                            "id": "1603"
+                        },
+                        {
+                            "id": "1604"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "59",
+            "name": "Udalbus Auzoetatik",
+            "web": "",
+            "updatedOn": "",
+            "operatesAt": "day",
+            "direction": [
+                {
+                    "name": "Ida",
+                    "from": "Arangoitia",
+                    "to": "Plaza Biribila",
+                    "timetable": [
+                        {
+                            "id": "",
+                            "name": "WorkingDays",
+                            "startTime": "06:20",
+                            "endTime": "22:00",
+                            "journeyDurationMin": 20
+                        },
+                        {
+                            "id": "",
+                            "name": "Saturdays",
+                            "startTime": "06:30",
+                            "endTime": "22:30",
+                            "journeyDurationMin": 30
+                        },
+                        {
+                            "id": "",
+                            "name": "holydays",
+                            "startTime": "07:30",
+                            "endTime": "22:30",
+                            "journeyDurationMin": 30
+                        }
+                    ],
+                    "stopsId": [
+                        {
+                            "id": "1604"
+                        },
+                        {
+                            "id": "1605"
+                        },
+                        {
+                            "id": "1702"
+                        },
+                        {
+                            "id": "1703"
+                        },
+                        {
+                            "id": "1306"
+                        },
+                        {
+                            "id": "1414"
+                        },
+                        {
+                            "id": "1413"
+                        },
+                        {
+                            "id": "1424"
+                        },
+                        {
+                            "id": "6107"
+                        },
+                        {
+                            "id": "6109"
+                        },
+                        {
+                            "id": "6219"
+                        },
+                        {
+                            "id": "6115"
+                        },
+                        {
+                            "id": "6113"
+                        },
+                        {
+                            "id": "6130"
+                        }
+                    ]
+                },
+                {
+                    "name": "Vuelta",
+                    "from": "Plaza Biribila",
+                    "to": "Arangoitia",
+                    "timetable": [
+                        {
+                            "id": "",
+                            "name": "WorkingDays",
+                            "startTime": "06:30",
+                            "endTime": "22:30",
+                            "journeyDurationMin": 20
+                        },
+                        {
+                            "id": "",
+                            "name": "Saturdays",
+                            "startTime": "07:00",
+                            "endTime": "22:30",
+                            "journeyDurationMin": 30
+                        },
+                        {
+                            "id": "",
+                            "name": "holydays",
+                            "startTime": "07:30",
+                            "endTime": "22:30",
+                            "journeyDurationMin": 30
+                        }
+                    ],
+                    "stopsId": [
+                        {
+                            "id": "6130"
+                        },
+                        {
+                            "id": "6114"
+                        },
+                        {
+                            "id": "6110"
+                        },
+                        {
+                            "id": "6125"
+                        },
+                        {
+                            "id": "6204"
+                        },
+                        {
+                            "id": "1425"
+                        },
+                        {
+                            "id": "1423"
+                        },
+                        {
+                            "id": "1415"
+                        },
+                        {
+                            "id": "1411"
+                        },
+                        {
+                            "id": "1712"
+                        },
+                        {
+                            "id": "1701"
+                        },
+                        {
+                            "id": "1401"
+                        },
+                        {
+                            "id": "1601"
+                        },
+                        {
+                            "id": "1603"
+                        },
+                        {
+                            "id": "1604"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "60",
+            "name": "Eibar - Arrate",
+            "web": "",
+            "updatedOn": "",
+            "operatesAt": "day",
+            "direction": [
+                {
+                    "name": "Ida",
+                    "from": "Arangoitia",
+                    "to": "Plaza Biribila",
+                    "timetable": [
+                        {
+                            "id": "",
+                            "name": "WorkingDays",
+                            "startTime": "06:20",
+                            "endTime": "22:00",
+                            "journeyDurationMin": 20
+                        },
+                        {
+                            "id": "",
+                            "name": "Saturdays",
+                            "startTime": "06:30",
+                            "endTime": "22:30",
+                            "journeyDurationMin": 30
+                        },
+                        {
+                            "id": "",
+                            "name": "holydays",
+                            "startTime": "07:30",
+                            "endTime": "22:30",
+                            "journeyDurationMin": 30
+                        }
+                    ],
+                    "stopsId": [
+                        {
+                            "id": "1604"
+                        },
+                        {
+                            "id": "1605"
+                        },
+                        {
+                            "id": "1702"
+                        },
+                        {
+                            "id": "1703"
+                        },
+                        {
+                            "id": "1306"
+                        },
+                        {
+                            "id": "1414"
+                        },
+                        {
+                            "id": "1413"
+                        },
+                        {
+                            "id": "1424"
+                        },
+                        {
+                            "id": "6107"
+                        },
+                        {
+                            "id": "6109"
+                        },
+                        {
+                            "id": "6219"
+                        },
+                        {
+                            "id": "6115"
+                        },
+                        {
+                            "id": "6113"
+                        },
+                        {
+                            "id": "6130"
+                        }
+                    ]
+                },
+                {
+                    "name": "Vuelta",
+                    "from": "Plaza Biribila",
+                    "to": "Arangoitia",
+                    "timetable": [
+                        {
+                            "id": "",
+                            "name": "WorkingDays",
+                            "startTime": "06:30",
+                            "endTime": "22:30",
+                            "journeyDurationMin": 20
+                        },
+                        {
+                            "id": "",
+                            "name": "Saturdays",
+                            "startTime": "07:00",
+                            "endTime": "22:30",
+                            "journeyDurationMin": 30
+                        },
+                        {
+                            "id": "",
+                            "name": "holydays",
+                            "startTime": "07:30",
+                            "endTime": "22:30",
+                            "journeyDurationMin": 30
+                        }
+                    ],
+                    "stopsId": [
+                        {
+                            "id": "6130"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

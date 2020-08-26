@@ -1,0 +1,60 @@
+{
+    "info": {
+        "company": "Funicular Artxanda",
+        "type": "Funicular",
+        "web": "https://funicularartxanda.bilbao.eus/",
+        "place": "Bilbo"
+    },
+    "stops": [
+        {
+            "id": "0",
+            "name": "Bilbao / Estación Inferior",
+            "lat": "43.268712",
+            "lng": "-2.925987",
+            "linesId": [
+                {
+                    "id": "0"
+                }
+            ]
+        },
+        {
+            "id": "1",
+            "name": "Artxanda / Estación Superior",
+            "lat": "43.274063",
+            "lng": "-2.920148",
+            "linesId": [
+                {
+                    "id": "0"
+                }
+            ]
+        }
+    ],
+    "lines": [
+        {
+            "id": "0",
+            "name": "Bilb0 - Artxanda",
+            "web": "https://funicularartxanda.bilbao.eus/eu/horarios-y-tarifas/",
+            "updatedOn": "2020/08/26",
+            "operatesAt": "day",
+            "direction": [
+                {
+                    "name": "Ida",
+                    "from": "Bilbo",
+                    "to": "Artxanda",
+                    "stopsId": [
+                        {
+                            "id": "0"
+                        }
+                    ]
+                },
+                {
+                    "name": "Vuelta",
+                    "from": "Artxanda",
+                    "to": "Bilbo",
+                    "stopsId": ""
+                }
+            ]
+        }
+    ]
+}
+

@@ -1,0 +1,73 @@
+{
+    "info": {
+        "company": "Euskotren",
+        "type": "Funicular",
+        "web": "https://www.euskotren.eus/funicular",
+        "place": "Trapagaran"
+    },
+    "stops": [
+        {
+            "id": "0",
+            "name": "Trapagaran / La Escontrilla",
+            "lat": "43.301227",
+            "lng": "-3.042007",
+            "linesId": [
+                {
+                    "id": "0"
+                }
+            ]
+        },
+        {
+            "id": "1",
+            "name": "Larreineta",
+            "lat": "43.292552",
+            "lng": "-3.048867",
+            "linesId": [
+                {
+                    "id": "0"
+                }
+            ]
+        }
+    ],
+    "lines": [
+        {
+            "id": "0",
+            "name": "Trapagaran - Larreineta",
+            "web": "https://www.euskotren.eus/funicular",
+            "updatedOn": "2020/08/26",
+            "operatesAt": "day",
+            "direction": [
+                {
+                    "name": "Ida",
+                    "from": "Trapagaran / La Escontrilla",
+                    "to": "Larreineta",
+                    "stopsId": [
+                        {
+                            "id": "0",
+                            "timetable": [
+                                {
+                                    
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1"
+                        }
+                    ]
+                }, {
+                    "name": "Vuelta",
+                    "from": "Larreineta",
+                    "to": "La Escontrilla",
+                    "stopsId": [
+                        {
+                            "id": "1"
+                        },
+                        {
+                            "id": "0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
