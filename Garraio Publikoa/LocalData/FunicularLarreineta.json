@@ -1,7 +1,8 @@
 {
     "info": {
+        "id": "14",
         "company": "Euskotren",
-        "type": "Funicular",
+        "type": "CableCar",
         "web": "https://www.euskotren.eus/funicular",
         "place": "Trapagaran"
     },

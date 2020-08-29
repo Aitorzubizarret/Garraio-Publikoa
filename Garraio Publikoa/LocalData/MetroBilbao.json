@@ -1,8 +1,9 @@
 {
     "info": {
-        "company": "",
-        "type": "Metro",
-        "web": "",
+        "id": "10",
+        "company": "Metro Bilbao",
+        "type": "Underground",
+        "web": "https://www.metrobilbao.eus",
         "place": "Bilbo"
     },
     "stops": [],

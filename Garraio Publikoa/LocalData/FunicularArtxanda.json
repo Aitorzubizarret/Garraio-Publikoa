@@ -1,7 +1,8 @@
 {
     "info": {
+        "id": "15",
         "company": "Funicular Artxanda",
-        "type": "Funicular",
+        "type": "CableCar",
         "web": "https://funicularartxanda.bilbao.eus/",
         "place": "Bilbo"
     },
@@ -24,7 +25,12 @@
             "lng": "-2.920148",
             "linesId": [
                 {
-                    "id": "0"
+                    "id": "0",
+                    "directionId": "0"
+                },
+                {
+                    "id": "0",
+                    "directionId": "1"
                 }
             ]
         }
@@ -32,12 +38,13 @@
     "lines": [
         {
             "id": "0",
-            "name": "Bilb0 - Artxanda",
+            "name": "Bilbo - Artxanda",
             "web": "https://funicularartxanda.bilbao.eus/eu/horarios-y-tarifas/",
             "updatedOn": "2020/08/26",
             "operatesAt": "day",
             "direction": [
                 {
+                    "id": "0",
                     "name": "Ida",
                     "from": "Bilbo",
                     "to": "Artxanda",
@@ -48,6 +55,7 @@
                     ]
                 },
                 {
+                    "id": "1",
                     "name": "Vuelta",
                     "from": "Artxanda",
                     "to": "Bilbo",

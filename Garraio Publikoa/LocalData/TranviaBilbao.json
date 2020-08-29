@@ -1,8 +1,9 @@
 {
     "info": {
-        "company": "",
-        "type": "Tranvía",
-        "web": "",
+        "id": "12",
+        "company": "Euskotren",
+        "type": "Tram",
+        "web": "https://www.euskotren.eus/en/tranvia/bilbao",
         "place": "Bilbo"
     },
     "stops": [],

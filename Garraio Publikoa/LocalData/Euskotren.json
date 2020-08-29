@@ -1,8 +1,9 @@
 {
     "info": {
-        "company": "",
-        "type": "Tren",
-        "web": "",
+        "id": "11",
+        "company": "Euskotren",
+        "type": "Train",
+        "web": "https://www.euskotren.eus",
         "place": "Euskadi"
     },
     "stops": [],
