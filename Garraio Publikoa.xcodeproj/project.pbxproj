@@ -15,6 +15,7 @@
 		1A53CA5F24FEC93D00ECD615 /* Timetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A53CA5E24FEC93D00ECD615 /* Timetable.swift */; };
 		1A53CA6124FECB0500ECD615 /* StopsIdWithStopTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A53CA6024FECB0500ECD615 /* StopsIdWithStopTime.swift */; };
 		1A53CA6324FEF19600ECD615 /* HexToUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A53CA6224FEF19600ECD615 /* HexToUIColor.swift */; };
+		1A53CA6524FEF3CD00ECD615 /* CustomMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A53CA6424FEF3CD00ECD615 /* CustomMarker.swift */; };
 		1A69208F24F3D96F00A87389 /* Lurraldebus.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A69208E24F3D96F00A87389 /* Lurraldebus.json */; };
 		1A69209324F3DBFD00A87389 /* TUC.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A69209224F3DBFD00A87389 /* TUC.json */; };
 		1A69209524F3DD7E00A87389 /* Alavabus.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A69209424F3DD7E00A87389 /* Alavabus.json */; };
@@ -59,6 +60,7 @@
 		1A53CA5E24FEC93D00ECD615 /* Timetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timetable.swift; sourceTree = "<group>"; };
 		1A53CA6024FECB0500ECD615 /* StopsIdWithStopTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopsIdWithStopTime.swift; sourceTree = "<group>"; };
 		1A53CA6224FEF19600ECD615 /* HexToUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexToUIColor.swift; sourceTree = "<group>"; };
+		1A53CA6424FEF3CD00ECD615 /* CustomMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarker.swift; sourceTree = "<group>"; };
 		1A69208E24F3D96F00A87389 /* Lurraldebus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Lurraldebus.json; sourceTree = "<group>"; };
 		1A69209224F3DBFD00A87389 /* TUC.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TUC.json; sourceTree = "<group>"; };
 		1A69209424F3DD7E00A87389 /* Alavabus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Alavabus.json; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 			children = (
 				1AF50D9724EEE9B500CDC057 /* MapsFromApple.swift */,
 				1A8573B724F171B000E19FCE /* MapMarker.swift */,
+				1A53CA6424FEF3CD00ECD615 /* CustomMarker.swift */,
 			);
 			path = Maps;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				1A53CA5F24FEC93D00ECD615 /* Timetable.swift in Sources */,
 				1A53CA6324FEF19600ECD615 /* HexToUIColor.swift in Sources */,
 				1AF50D9A24EEFB8300CDC057 /* MapConfiguration.swift in Sources */,
+				1A53CA6524FEF3CD00ECD615 /* CustomMarker.swift in Sources */,
 				1AF50D9824EEE9B500CDC057 /* MapsFromApple.swift in Sources */,
 				1AF50D8124EECB0300CDC057 /* AppDelegate.swift in Sources */,
 				1A9943A624F05C6C00FC6D99 /* LocalFile.swift in Sources */,

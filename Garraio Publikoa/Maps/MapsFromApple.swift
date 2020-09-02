@@ -82,6 +82,27 @@ class MapsFromApple: NSObject {
     }
     
     ///
+    /// Adds a marker in the maps.
+    /// - Parameter id: The id that will be shown.
+    /// - Parameter lat: Latitude of the marker.
+    /// - Parameter lng: Longitude of the marker.
+    ///
+    public func addStop(stop: Stop) {
+//        let stop = MKPointAnnotation()
+//        stop.coordinate = CLLocationCoordinate2D(latitude: lat, longitude: lng)
+//        stop.title = asTitle
+//
+//        self.mapView?.addAnnotation(stop)
+        
+        if let doubleLat = Double(stop.lat), let doubleLng = Double(stop.lng) {
+            let coordinate: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: doubleLat, longitude: doubleLng)
+            let customMarker: CustomMarker = CustomMarker(coordinate: coordinate, title: stop.name, subtitle: "", companyId: "", stopId: stop.id)
+            
+            self.mapView?.addAnnotation(customMarker)
+        }
+    }
+    
+    ///
     /// Adds a marker list in the maps.
     ///
     public func addMarkers(markerList: [Marker]) {
@@ -89,6 +110,16 @@ class MapsFromApple: NSObject {
             self.addMarker(id: marker.id, lat: marker.lat, lng: marker.lng)
         }
     }
+    
+    ///
+    /// Adds a marker list in the maps.
+    ///
+    public func addStops(stopList: [Stop]) {
+        for stop in stopList {
+            self.addStop(stop: stop)
+        }
+    }
+    
 }
 
 extension MapsFromApple: MKMapViewDelegate {
@@ -96,7 +127,7 @@ extension MapsFromApple: MKMapViewDelegate {
     ///
     /// Method to draw the markers in the map.
     ///
-    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+    public func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         
         let identifier: String = "customMarker"
         
@@ -109,7 +140,8 @@ extension MapsFromApple: MKMapViewDelegate {
             markerView!.annotation = annotation
         }
         
-        markerView!.image = MapMarker().createImageWithText(text: "BUS")
+        let color: UIColor = convertHexToUIColor(hex: "FFF") ?? UIColor.black
+        markerView!.image = MapMarker().createSmallRoundedImageWithColor(color: color)
         
         return markerView
     }

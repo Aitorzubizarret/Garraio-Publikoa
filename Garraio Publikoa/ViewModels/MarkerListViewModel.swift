@@ -14,23 +14,20 @@ class MarkerListViewModel {
     var binding = { () -> () in }
     
     // Data Source
-    var markerList: [Marker] = [] {
+    var companyList: [Company] = [] {
         didSet {
             self.binding()
         }
     }
     
-    // Get data from Local JSON files.
-    func getLocalDataMarkers() {
-        LocalFile().readBusJSON(fileName: FileName.bilbobus) { (success, data) in
+    ///
+    /// Gets data from Local JSON files.
+    ///
+    public func getCompany(filename: FileName) {
+        LocalFile().readJSONFile(fileName: filename) { (success, data) in
             DispatchQueue.main.async {
-                if success, let receivedBusData = data {
-                    for busStop in receivedBusData.stops {
-                        if let doubleLat = Double(busStop.lat), let doubleLng = Double(busStop.lng) {
-                            let marker: Marker = Marker(id: busStop.id, name: busStop.name, lat: doubleLat, lng: doubleLng)
-                            self.markerList.append(marker)
-                        }
-                    }
+                if success, let receivedData = data {
+                    self.companyList.append(receivedData)
                 }
             }
         }

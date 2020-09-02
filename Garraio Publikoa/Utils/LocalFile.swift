@@ -16,8 +16,15 @@ enum FileName: String {
     case bizkaibus = "Bizkaibus"
     case irunbus = "Irunbus"
     case lurraldebus = "Lurraldebus"
+    case pesa = "Pesa"
     case tuc = "TUC"
     case alavabus = "Alavabus"
+    case metroBilbao = "MetroBilbao"
+    case euskotren = "Euskotren"
+    case tranviaBilbao = "TranviaBilbao"
+    case tranviaVitoria = "TranviaVitoria"
+    case funicularLarreineta = "FunicularLarreineta"
+    case funicularArtxanda = "FunicularArtxanda"
 }
 
 class LocalFile {
@@ -28,7 +35,7 @@ class LocalFile {
     /// - Parameter success: 'True' if the JSON file has been read and / or decode correctly, otherwise 'false'.
     /// - Parameter data: The data of the file as Bus.
     ///
-    public func readBusJSON(fileName: FileName, completion: @escaping(_ success: Bool, _ data: Bus?) -> Void) {
+    public func readJSONFile(fileName: FileName, completion: @escaping(_ success: Bool, _ data: Company?) -> Void) {
         if let path = Bundle.main.path(forResource: fileName.rawValue, ofType: "json") {
             do {
                 let fileUrl = URL(fileURLWithPath: path)
@@ -36,10 +43,10 @@ class LocalFile {
                 // Get the data from the JSON file.
                 let data = try Data(contentsOf: fileUrl, options: Data.ReadingOptions.alwaysMapped)
                 
-                // Decode the data from JSON to Bus object.
-                let busInfo = try JSONDecoder().decode(Bus.self, from: data)
+                // Decode the data from JSON to Company object.
+                let companyInfo = try JSONDecoder().decode(Company.self, from: data)
                 
-                completion(true, busInfo)
+                completion(true, companyInfo)
             } catch let error {
                 completion(false, nil)
                 print("Error: \(error)")

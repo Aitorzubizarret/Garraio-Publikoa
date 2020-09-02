@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         
         self.bind()
         
-        self.getMarkersFromLocalData()
+        self.getLocalData()
     }
     
     ///
@@ -42,15 +42,17 @@ class ViewController: UIViewController {
     ///
     private func bind() {
         self.markerListViewModel.binding = {
-            self.mapsFromApple?.addMarkers(markerList: self.markerListViewModel.markerList)
+            for company in self.markerListViewModel.companyList {
+                self.mapsFromApple?.addStops(stopList: company.stops)
+            }
         }
     }
     
     ///
-    /// Gets marker data from local JSON files.
+    /// Gets  data from local JSON files.
     ///
-    private func getMarkersFromLocalData() {
-        self.markerListViewModel.getLocalDataMarkers()
+    private func getLocalData() {
+        self.markerListViewModel.getCompany(filename: FileName.bilbobus)
     }
 
 }

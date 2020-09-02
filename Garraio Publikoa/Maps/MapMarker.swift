@@ -84,4 +84,45 @@ class MapMarker {
         
         return marker
     }
+    
+    ///
+    /// Creates an small image that will be used as a marker in the map.
+    ///
+    public func createSmallRoundedImageWithColor(color: UIColor) -> UIImage {
+        
+        // Values.
+        let imageHeight = 16
+        let imageWidth = 16
+        
+        // Main Layer.
+        let mainLayer: CALayer = CALayer()
+        mainLayer.drawsAsynchronously = true
+        mainLayer.frame = CGRect(x: 0, y: 0, width: imageWidth, height: imageHeight)
+        mainLayer.cornerRadius = 10
+        mainLayer.backgroundColor = UIColor.clear.cgColor
+        
+        // Circle Layer.
+        let circleLayer: CALayer = CALayer()
+        circleLayer.drawsAsynchronously = true
+        circleLayer.frame = CGRect(x: 0, y: 0, width: (imageWidth - 2), height: (imageHeight - 2))
+        circleLayer.cornerRadius = CGFloat(imageWidth / 2)
+        circleLayer.backgroundColor = color.cgColor
+        circleLayer.borderWidth = 0.6
+        circleLayer.borderColor = UIColor.black.withAlphaComponent(0.4).cgColor
+        
+        // Add all layers into the main.
+        mainLayer.addSublayer(circleLayer)
+
+        // Convert CALayer to UIImage.
+        UIGraphicsBeginImageContext(CGSize(width: imageWidth, height: imageHeight))
+        mainLayer.render(in: UIGraphicsGetCurrentContext()!)
+        let outputImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        guard let marker = outputImage else {
+            return UIImage(named: "marker")!
+        }
+        
+        return marker
+    }
 }
