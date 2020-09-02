@@ -73,20 +73,6 @@ class MapsFromApple: NSObject {
     /// - Parameter lat: Latitude of the marker.
     /// - Parameter lng: Longitude of the marker.
     ///
-    public func addMarker(id asTitle: String, lat: Double, lng: Double) {
-        let marker = MKPointAnnotation()
-        marker.coordinate = CLLocationCoordinate2D(latitude: lat, longitude: lng)
-        marker.title = asTitle
-        
-        self.mapView?.addAnnotation(marker)
-    }
-    
-    ///
-    /// Adds a marker in the maps.
-    /// - Parameter id: The id that will be shown.
-    /// - Parameter lat: Latitude of the marker.
-    /// - Parameter lng: Longitude of the marker.
-    ///
     public func addStop(stop: Stop) {
 //        let stop = MKPointAnnotation()
 //        stop.coordinate = CLLocationCoordinate2D(latitude: lat, longitude: lng)
@@ -99,15 +85,6 @@ class MapsFromApple: NSObject {
             let customMarker: CustomMarker = CustomMarker(coordinate: coordinate, title: stop.name, subtitle: "", companyId: "", stopId: stop.id)
             
             self.mapView?.addAnnotation(customMarker)
-        }
-    }
-    
-    ///
-    /// Adds a marker list in the maps.
-    ///
-    public func addMarkers(markerList: [Marker]) {
-        for marker in markerList {
-            self.addMarker(id: marker.id, lat: marker.lat, lng: marker.lng)
         }
     }
     

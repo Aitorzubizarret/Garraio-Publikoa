@@ -20,7 +20,6 @@
 		1A69209324F3DBFD00A87389 /* TUC.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A69209224F3DBFD00A87389 /* TUC.json */; };
 		1A69209524F3DD7E00A87389 /* Alavabus.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A69209424F3DD7E00A87389 /* Alavabus.json */; };
 		1A8573B824F171B000E19FCE /* MapMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8573B724F171B000E19FCE /* MapMarker.swift */; };
-		1A88A7E824F56835004A149E /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88A7E724F56835004A149E /* Marker.swift */; };
 		1A88A7EA24F5BA7C004A149E /* Pesa.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A88A7E924F5BA7C004A149E /* Pesa.json */; };
 		1A88A7EC24F5BACC004A149E /* MetroBilbao.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A88A7EB24F5BACC004A149E /* MetroBilbao.json */; };
 		1A88A7EE24F5BAE2004A149E /* Euskotren.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A88A7ED24F5BAE2004A149E /* Euskotren.json */; };
@@ -65,7 +64,6 @@
 		1A69209224F3DBFD00A87389 /* TUC.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TUC.json; sourceTree = "<group>"; };
 		1A69209424F3DD7E00A87389 /* Alavabus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Alavabus.json; sourceTree = "<group>"; };
 		1A8573B724F171B000E19FCE /* MapMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMarker.swift; sourceTree = "<group>"; };
-		1A88A7E724F56835004A149E /* Marker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
 		1A88A7E924F5BA7C004A149E /* Pesa.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Pesa.json; sourceTree = "<group>"; };
 		1A88A7EB24F5BACC004A149E /* MetroBilbao.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MetroBilbao.json; sourceTree = "<group>"; };
 		1A88A7ED24F5BAE2004A149E /* Euskotren.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Euskotren.json; sourceTree = "<group>"; };
@@ -204,7 +202,6 @@
 				1A53CA5E24FEC93D00ECD615 /* Timetable.swift */,
 				1A53CA6024FECB0500ECD615 /* StopsIdWithStopTime.swift */,
 				1A1FDD6224FABE250094EFBE /* StopTime.swift */,
-				1A88A7E724F56835004A149E /* Marker.swift */,
 				1A99439F24F0169200FC6D99 /* Bus.swift */,
 			);
 			path = Models;
@@ -334,7 +331,6 @@
 				1A8573B824F171B000E19FCE /* MapMarker.swift in Sources */,
 				1AF3EFA724F81D460055E4DF /* Direction.swift in Sources */,
 				1A53CA6124FECB0500ECD615 /* StopsIdWithStopTime.swift in Sources */,
-				1A88A7E824F56835004A149E /* Marker.swift in Sources */,
 				1A1FDD6524FAF9B50094EFBE /* CompanyInfo.swift in Sources */,
 				1A1FDD6124FABD430094EFBE /* Stop.swift in Sources */,
 				1A9943A024F0169200FC6D99 /* Bus.swift in Sources */,
