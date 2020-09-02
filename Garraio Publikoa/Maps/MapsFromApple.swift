@@ -97,6 +97,34 @@ class MapsFromApple: NSObject {
         }
     }
     
+    ///
+    /// Adds a line in the maps.
+    ///
+    public func addLine(line: Line) {
+        
+        // The color of the line.
+        var lineColor: UIColor? = convertHexToUIColor(hex: line.color)
+        
+        for direction in line.directions {
+            var polyline = direction.polyline
+            var coordinates: [CLLocationCoordinate2D] = []
+            
+            while polyline.count != 0 {
+                let lat: Double = polyline.last ?? 0
+                polyline = polyline.dropLast()
+                let lng: Double = polyline.last ?? 0
+                polyline = polyline.dropLast()
+                
+                let coordinate: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: lat, longitude: lng)
+                coordinates.append(coordinate)
+            }
+            
+            let overlay = MKPolyline(coordinates: &coordinates, count: coordinates.count)
+            
+            self.mapView?.addOverlay(overlay)
+        }
+    }
+    
 }
 
 extension MapsFromApple: MKMapViewDelegate {
@@ -122,4 +150,26 @@ extension MapsFromApple: MKMapViewDelegate {
         
         return markerView
     }
+    
+    
+    ///
+    /// Method to draw the polyline in the map.
+    ///
+    public func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
+        if overlay.isKind(of: MKPolyline.self) {
+            let polyLine = overlay
+            let polyLineRenderer = MKPolylineRenderer(overlay: polyLine)
+            polyLineRenderer.strokeColor = UIColor.white
+            // Line Dashed
+            polyLineRenderer.lineDashPhase = 2
+            polyLineRenderer.lineDashPattern = [NSNumber(value: 4), NSNumber(value: 10)]
+            polyLineRenderer.lineWidth = 4.0
+            
+            return polyLineRenderer
+        }
+        
+        return MKPolylineRenderer()
+    }
+    
+    
 }

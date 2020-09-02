@@ -44,6 +44,9 @@ class ViewController: UIViewController {
         self.markerListViewModel.binding = {
             for company in self.markerListViewModel.companyList {
                 self.mapsFromApple?.addStops(stopList: company.stops)
+                for line in company.lines {
+                    self.mapsFromApple?.addLine(line: line)
+                }
             }
         }
     }

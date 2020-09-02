@@ -13,7 +13,7 @@ struct Direction: Codable {
     let name: String
     let from: String
     let to: String
-    let polyline: String
+    let polyline: [Double]
     let timetable: [Timetable]
     let stopsIdWithStopTime: [StopsIdWithStopTime]
 }
