@@ -106,9 +106,9 @@ class MapMarker {
         circleLayer.drawsAsynchronously = true
         circleLayer.frame = CGRect(x: 0, y: 0, width: (imageWidth - 2), height: (imageHeight - 2))
         circleLayer.cornerRadius = CGFloat(imageWidth / 2)
-        circleLayer.backgroundColor = color.cgColor
-        circleLayer.borderWidth = 0.6
-        circleLayer.borderColor = UIColor.black.withAlphaComponent(0.4).cgColor
+        circleLayer.backgroundColor = UIColor.white.cgColor
+        circleLayer.borderWidth = 3
+        circleLayer.borderColor = color.cgColor
         
         // Add all layers into the main.
         mainLayer.addSublayer(circleLayer)

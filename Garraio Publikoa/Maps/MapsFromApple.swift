@@ -119,7 +119,9 @@ class MapsFromApple: NSObject {
                 coordinates.append(coordinate)
             }
             
-            let overlay = MKPolyline(coordinates: &coordinates, count: coordinates.count)
+            // Creates a polyline with the coordinates and sets the color of the line.
+            let overlay = CustomPolyline(coordinates: &coordinates, count: coordinates.count)
+            overlay.color = lineColor
             
             self.mapView?.addOverlay(overlay)
         }
@@ -145,7 +147,7 @@ extension MapsFromApple: MKMapViewDelegate {
             markerView!.annotation = annotation
         }
         
-        let color: UIColor = convertHexToUIColor(hex: "FFF") ?? UIColor.black
+        let color: UIColor = convertHexToUIColor(hex: "99cc13") ?? UIColor.black
         markerView!.image = MapMarker().createSmallRoundedImageWithColor(color: color)
         
         return markerView
@@ -156,14 +158,17 @@ extension MapsFromApple: MKMapViewDelegate {
     /// Method to draw the polyline in the map.
     ///
     public func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
-        if overlay.isKind(of: MKPolyline.self) {
-            let polyLine = overlay
-            let polyLineRenderer = MKPolylineRenderer(overlay: polyLine)
-            polyLineRenderer.strokeColor = UIColor.white
+        if overlay.isKind(of: CustomPolyline.self) {
+            let customPolyline: CustomPolyline = overlay as! CustomPolyline
+            let polylineColor: UIColor = customPolyline.color ?? UIColor.black
+            
+            let polyLineRenderer = MKPolylineRenderer(overlay: customPolyline)
+            polyLineRenderer.strokeColor = polylineColor
+            
             // Line Dashed
-            polyLineRenderer.lineDashPhase = 2
-            polyLineRenderer.lineDashPattern = [NSNumber(value: 4), NSNumber(value: 10)]
-            polyLineRenderer.lineWidth = 4.0
+            //polyLineRenderer.lineDashPhase = 2
+            //polyLineRenderer.lineDashPattern = [NSNumber(value: 4), NSNumber(value: 10)]
+            polyLineRenderer.lineWidth = 6.0
             
             return polyLineRenderer
         }
