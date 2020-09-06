@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1A13E30524F1BD3E005B21F0 /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A13E30424F1BD3E005B21F0 /* Template.swift */; };
+		1A159BBF2504F1DC00B98437 /* FunicularIgeldo.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A159BBE2504F1DC00B98437 /* FunicularIgeldo.json */; };
+		1A159BC12504FEA800B98437 /* Bilbaobizi.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A159BC02504FEA800B98437 /* Bilbaobizi.json */; };
+		1A159BC32505672100B98437 /* EtxebarriBus.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A159BC22505672100B98437 /* EtxebarriBus.json */; };
+		1A159BC525056AD000B98437 /* KBus.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A159BC425056AD000B98437 /* KBus.json */; };
 		1A1FDD6124FABD430094EFBE /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1FDD6024FABD430094EFBE /* Stop.swift */; };
 		1A1FDD6324FABE250094EFBE /* StopTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1FDD6224FABE250094EFBE /* StopTime.swift */; };
 		1A1FDD6524FAF9B50094EFBE /* CompanyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1FDD6424FAF9B50094EFBE /* CompanyInfo.swift */; };
@@ -53,6 +57,10 @@
 
 /* Begin PBXFileReference section */
 		1A13E30424F1BD3E005B21F0 /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
+		1A159BBE2504F1DC00B98437 /* FunicularIgeldo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FunicularIgeldo.json; sourceTree = "<group>"; };
+		1A159BC02504FEA800B98437 /* Bilbaobizi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Bilbaobizi.json; sourceTree = "<group>"; };
+		1A159BC22505672100B98437 /* EtxebarriBus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = EtxebarriBus.json; sourceTree = "<group>"; };
+		1A159BC425056AD000B98437 /* KBus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = KBus.json; sourceTree = "<group>"; };
 		1A1FDD6024FABD430094EFBE /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
 		1A1FDD6224FABE250094EFBE /* StopTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopTime.swift; sourceTree = "<group>"; };
 		1A1FDD6424FAF9B50094EFBE /* CompanyInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyInfo.swift; sourceTree = "<group>"; };
@@ -229,6 +237,10 @@
 				1A88A7F324F670D2004A149E /* TranviaVitoria.json */,
 				1A88A7F524F67229004A149E /* FunicularLarreineta.json */,
 				1A88A7F724F6BAF2004A149E /* FunicularArtxanda.json */,
+				1A159BBE2504F1DC00B98437 /* FunicularIgeldo.json */,
+				1A159BC02504FEA800B98437 /* Bilbaobizi.json */,
+				1A159BC22505672100B98437 /* EtxebarriBus.json */,
+				1A159BC425056AD000B98437 /* KBus.json */,
 			);
 			path = LocalData;
 			sourceTree = "<group>";
@@ -293,8 +305,11 @@
 			files = (
 				1A88A7F624F67229004A149E /* FunicularLarreineta.json in Resources */,
 				1A88A7F424F670D2004A149E /* TranviaVitoria.json in Resources */,
+				1A159BBF2504F1DC00B98437 /* FunicularIgeldo.json in Resources */,
 				1AF50D9524EECB3500CDC057 /* .gitignore in Resources */,
 				1AF50D8D24EECB0400CDC057 /* LaunchScreen.storyboard in Resources */,
+				1A159BC32505672100B98437 /* EtxebarriBus.json in Resources */,
+				1A159BC525056AD000B98437 /* KBus.json in Resources */,
 				1A9943B024F0980500FC6D99 /* Irunbus.json in Resources */,
 				1A88A7F224F670B7004A149E /* TranviaBilbao.json in Resources */,
 				1AF50D8A24EECB0400CDC057 /* Assets.xcassets in Resources */,
@@ -306,6 +321,7 @@
 				1A69208F24F3D96F00A87389 /* Lurraldebus.json in Resources */,
 				1AF50D8824EECB0300CDC057 /* Main.storyboard in Resources */,
 				1A88A7F824F6BAF2004A149E /* FunicularArtxanda.json in Resources */,
+				1A159BC12504FEA800B98437 /* Bilbaobizi.json in Resources */,
 				1A69209324F3DBFD00A87389 /* TUC.json in Resources */,
 				1A88A7EA24F5BA7C004A149E /* Pesa.json in Resources */,
 				1A9943AA24F0906900FC6D99 /* Tuvisa.json in Resources */,

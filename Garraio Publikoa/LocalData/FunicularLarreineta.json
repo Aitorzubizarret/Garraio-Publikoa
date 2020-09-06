@@ -1,7 +1,7 @@
 {
     "info": {
         "id": "14",
-        "company": "Euskotren",
+        "name": "Euskotren",
         "type": "CableCar",
         "web": "https://www.euskotren.eus/funicular",
         "place": "Trapagaran"
@@ -13,9 +13,7 @@
             "lat": "43.301227",
             "lng": "-3.042007",
             "linesId": [
-                {
-                    "id": "0"
-                }
+                "0"
             ]
         },
         {
@@ -24,9 +22,7 @@
             "lat": "43.292552",
             "lng": "-3.048867",
             "linesId": [
-                {
-                    "id": "0"
-                }
+                "0"
             ]
         }
     ],
@@ -34,37 +30,45 @@
         {
             "id": "0",
             "name": "Trapagaran - Larreineta",
+            "color": "#333",
             "web": "https://www.euskotren.eus/funicular",
             "updatedOn": "2020/08/26",
-            "operatesAt": "day",
-            "direction": [
+            "directions": [
                 {
+                    "id": "0",
                     "name": "Ida",
                     "from": "Trapagaran / La Escontrilla",
                     "to": "Larreineta",
-                    "stopsId": [
+                    "polyline": [
+                        -3.042010,43.301244,-3.042463,43.300354,-3.044273,43.296809,-3.044945,43.295559,-3.045026,43.295438,-3.045128,43.295282,-3.045246,43.295137,-3.045616,43.294731,-3.045771,43.294591,-3.045902,43.294486,-3.046009,43.294406,-3.046152,43.294310,-3.048746,43.292636
+                    ],
+                    "timetable": [],
+                    "stopsIdWithStopTime": [
                         {
                             "id": "0",
-                            "timetable": [
-                                {
-                                    
-                                }
-                            ]
+                            "stopTime": []
                         },
                         {
-                            "id": "1"
+                            "id": "1",
+                            "stopTime": []
                         }
                     ]
-                }, {
+                },
+                {
+                    "id": "1",
                     "name": "Vuelta",
                     "from": "Larreineta",
                     "to": "La Escontrilla",
-                    "stopsId": [
+                    "polyline": [],
+                    "timetable": [],
+                    "stopsIdWithStopTime": [
                         {
-                            "id": "1"
+                            "id": "1",
+                            "stopTime": []
                         },
                         {
-                            "id": "0"
+                            "id": "0",
+                            "stopTime": []
                         }
                     ]
                 }

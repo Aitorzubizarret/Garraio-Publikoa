@@ -1,46 +1,42 @@
 {
     "info": {
-        "id": "15",
-        "name": "Funicular Artxanda",
+        "id": "16",
+        "name": "Funicular Donosti",
         "type": "CableCar",
-        "web": "https://funicularartxanda.bilbao.eus/",
-        "place": "Bilbo"
+        "web": "https://www.monteigueldo.es",
+        "place": "Donosti"
     },
     "stops": [
         {
             "id": "0",
-            "name": "Bilbo",
-            "lat": "43.268702",
-            "lng": "-2.926049",
-            "linesId": [
-                "0"
-            ]
+            "name": "Donostia",
+            "lat": "43.31912",
+            "lng": "-2.006382",
+            "linesId": []
         },
         {
             "id": "1",
-            "name": "Artxanda",
-            "lat": "43.274069",
-            "lng": "-2.920191",
-            "linesId": [
-                "0", "1"
-            ]
+            "name": "Donostia",
+            "lat": "43.321288",
+            "lng": "-2.008767",
+            "linesId": []
         }
     ],
     "lines": [
         {
             "id": "0",
-            "name": "Bilbo - Artxanda",
-            "color": "#df0408",
-            "web": "https://funicularartxanda.bilbao.eus/eu/horarios-y-tarifas/",
-            "updatedOn": "2020/09/05",
+            "name": "Donosti - Igeldo",
+            "color": "#ff352d",
+            "web": "",
+            "updatedOn": "",
             "directions": [
                 {
                     "id": "0",
                     "name": "Ida",
-                    "from": "Bilbo",
-                    "to": "Artxanda",
+                    "from": "Donosti",
+                    "to": "Igeldo",
                     "polyline": [
-                        -2.926049,43.268702,-2.924690,43.269619,-2.923681,43.270201,-2.923600,43.270252,-2.923509,43.270299,-2.923401,43.270365,-2.923283,43.270455,-2.922956,43.270764,-2.922391,43.271425,-2.921473,43.272531,-2.920191,43.274069
+                        -2.006390,43.319115,-2.006540,43.319252,-2.008766,43.321288
                     ],
                     "timetable": [],
                     "stopsIdWithStopTime": [
@@ -57,8 +53,8 @@
                 {
                     "id": "1",
                     "name": "Vuelta",
-                    "from": "Artxanda",
-                    "to": "Bilbo",
+                    "from": "Igeldo",
+                    "to": "Donosti",
                     "polyline": [],
                     "timetable": [],
                     "stopsIdWithStopTime": [

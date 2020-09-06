@@ -1,11 +1,790 @@
 {
     "info": {
         "id": "10",
-        "company": "Metro Bilbao",
+        "name": "Metro Bilbao",
         "type": "Underground",
         "web": "https://www.metrobilbao.eus",
         "place": "Bilbo"
     },
-    "stops": [],
-    "lines": []
+    "stops": [
+        {
+            "id": "0",
+            "name": "Etxebarri",
+            "lat": "43.243933",
+            "lng": "-2.896787",
+            "linesId": [
+                "L1", "L2"
+            ]
+        },
+        {
+            "id": "1",
+            "name": "Bolueta",
+            "lat": "43.247",
+            "lng": "-2.9058",
+            "linesId": [
+                "L1", "L2"
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Basarrate",
+            "lat": "43.251111",
+            "lng": "-2.910833",
+            "linesId": [
+                "L1", "L2"
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Santutxu",
+            "lat": "43.255403",
+            "lng": "-2.913236",
+            "linesId": [
+                "L1", "L2"
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Zazpikaleak / Casco Viejo",
+            "lat": "43.26",
+            "lng": "-2.921944",
+            "linesId": [
+                "L1", "L2", "L3"
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Abando",
+            "lat": "43.261319",
+            "lng": "-2.927667",
+            "linesId": [
+                "L1", "L2"
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Moyua",
+            "lat": "43.262778",
+            "lng": "-2.933889",
+            "linesId": [
+                "L1", "L2"
+            ]
+        },
+        {
+            "id": "7",
+            "name": "Indautxu",
+            "lat": "43.260861",
+            "lng": "-2.940236",
+            "linesId": [
+                "L1", "L2"
+            ]
+        },
+        {
+            "id": "8",
+            "name": "Santimami / San Mames",
+            "lat": "43.261778",
+            "lng": "-2.949083",
+            "linesId": [
+                "L1", "L2"
+            ]
+        },
+        {
+            "id": "9",
+            "name": "Deustu",
+            "lat": "43.271667",
+            "lng": "-2.949444",
+            "linesId": [
+                "L1", "L2"
+            ]
+        },
+        {
+            "id": "10",
+            "name": "Sarriko",
+            "lat": "43.274444",
+            "lng": "-2.958056",
+            "linesId": [
+                "L1", "L2"
+            ]
+        },
+        {
+            "id": "11",
+            "name": "San Ignazio",
+            "lat": "43.280833",
+            "lng": "-2.9625",
+            "linesId": [
+                "L1", "L2"
+            ]
+        },
+        {
+            "id": "12",
+            "name": "Lutxana",
+            "lat": "43.291111",
+            "lng": "-2.97",
+            "linesId": [
+                "L1"
+            ]
+        },
+        {
+            "id": "13",
+            "name": "Erandio",
+            "lat": "43.303889",
+            "lng": "-2.974444",
+            "linesId": [
+                "L1"
+            ]
+        },
+        {
+            "id": "14",
+            "name": "Astrabudua",
+            "lat": "43.314722",
+            "lng": "-2.986944",
+            "linesId": [
+                "L1"
+            ]
+        },
+        {
+            "id": "15",
+            "name": "Leioa",
+            "lat": "43.318056",
+            "lng": "-2.991944",
+            "linesId": [
+                "L1"
+            ]
+        },
+        {
+            "id": "16",
+            "name": "Lamiako",
+            "lat": "43.321389",
+            "lng": "-3.001111",
+            "linesId": [
+                "L1"
+            ]
+        },
+        {
+            "id": "17",
+            "name": "Areeta",
+            "lat": "43.326111",
+            "lng": "-3.009722",
+            "linesId": [
+                "L1"
+            ]
+        },
+        {
+            "id": "18",
+            "name": "Gobela",
+            "lat": "43.333056",
+            "lng": "-3.007361",
+            "linesId": [
+                "L1"
+            ]
+        },
+        {
+            "id": "19",
+            "name": "Neguri",
+            "lat": "43.340278",
+            "lng": "-3.005556",
+            "linesId": [
+                "L1"
+            ]
+        },
+        {
+            "id": "20",
+            "name": "Aiboa",
+            "lat": "43.343889",
+            "lng": "-3.002778",
+            "linesId": [
+                "L1"
+            ]
+        },
+        {
+            "id": "21",
+            "name": "Algorta",
+            "lat": "43.350847",
+            "lng": "-3.009514",
+            "linesId": [
+                "L1"
+            ]
+        },
+        {
+            "id": "22",
+            "name": "Bidezabal",
+            "lat": "43.356944",
+            "lng": "-3.011667",
+            "linesId": [
+                "L1"
+            ]
+        },
+        {
+            "id": "23",
+            "name": "Ibarbengoa",
+            "lat": "43.3633",
+            "lng": "-3.00693",
+            "linesId": [
+                "L1"
+            ]
+        },
+        {
+            "id": "24",
+            "name": "Berango",
+            "lat": "43.366944",
+            "lng": "-2.999444",
+            "linesId": [
+                "L1"
+            ]
+        },
+        {
+            "id": "25",
+            "name": "Larrabasterra",
+            "lat": "43.375833",
+            "lng": "-2.991389",
+            "linesId": [
+                "L1"
+            ]
+        },
+        {
+            "id": "26",
+            "name": "Sopela",
+            "lat": "43.380278",
+            "lng": "-2.978889",
+            "linesId": [
+                "L1"
+            ]
+        },
+        {
+            "id": "27",
+            "name": "Urduliz",
+            "lat": "43.378889",
+            "lng": "-2.958333",
+            "linesId": [
+                "L1"
+            ]
+        },
+        {
+            "id": "28",
+            "name": "Plentzia",
+            "lat": "43.401729",
+            "lng": "-2.946393",
+            "linesId": [
+                "L1"
+            ]
+        },
+        {
+            "id": "29",
+            "name": "Basauri",
+            "lat": "43.237583",
+            "lng": "-2.89475",
+            "linesId": [
+                "L2"
+            ]
+        },
+        {
+            "id": "30",
+            "name": "Ariz",
+            "lat": "43.238014",
+            "lng": "-2.881347",
+            "linesId": [
+                "L2"
+            ]
+        },
+        {
+            "id": "31",
+            "name": "Gurutzeta / Cruces",
+            "lat": "43.282361",
+            "lng": "-2.982819",
+            "linesId": [
+                "L2"
+            ]
+        },
+        {
+            "id": "32",
+            "name": "Ansio",
+            "lat": "43.289444",
+            "lng": "-2.987222",
+            "linesId": [
+                "L2"
+            ]
+        },
+        {
+            "id": "33",
+            "name": "Barakaldo",
+            "lat": "43.296139",
+            "lng": "-2.989111",
+            "linesId": [
+                "L2"
+            ]
+        },
+        {
+            "id": "34",
+            "name": "Bagatza",
+            "lat": "43.299625",
+            "lng": "-2.993167",
+            "linesId": [
+                "L2"
+            ]
+        },
+        {
+            "id": "35",
+            "name": "Urbinaga",
+            "lat": "43.3055",
+            "lng": "-2.99243",
+            "linesId": [
+                "L2"
+            ]
+        },
+        {
+            "id": "36",
+            "name": "Sestao",
+            "lat": "43.309444",
+            "lng": "-3.007222",
+            "linesId": [
+                "L2"
+            ]
+        },
+        {
+            "id": "37",
+            "name": "Abatxolo",
+            "lat": "43.313778",
+            "lng": "-3.012569",
+            "linesId": [
+                "L2"
+            ]
+        },
+        {
+            "id": "38",
+            "name": "Portugalete",
+            "lat": "43.317778",
+            "lng": "-3.020556",
+            "linesId": [
+                "L2"
+            ]
+        },
+        {
+            "id": "39",
+            "name": "Peñota",
+            "lat": "43.321944",
+            "lng": "-3.024722",
+            "linesId": [
+                "L2"
+            ]
+        },
+        {
+            "id": "40",
+            "name": "Santurtzi",
+            "lat": "43.328556",
+            "lng": "-3.034611",
+            "linesId": [
+                "L2", "L"
+            ]
+        },
+        {
+            "id": "41",
+            "name": "Mamariga",
+            "lat": "43.3315",
+            "lng": "-3.03783",
+            "linesId": [
+                "L"
+            ]
+        },
+        {
+            "id": "42",
+            "name": "Kabiezes",
+            "lat": "43.322403",
+            "lng": "-3.037764",
+            "linesId": [
+                "L2"
+            ]
+        },
+        {
+            "id": "43",
+            "name": "Kukullaga",
+            "lat": "43.251689",
+            "lng": "-2.889604",
+            "linesId": [
+                "L3"
+            ]
+        },
+        {
+            "id": "44",
+            "name": "Otxarkoaga",
+            "lat": "43.258116",
+            "lng": "-2.900842",
+            "linesId": [
+                "L3"
+            ]
+        },
+        {
+            "id": "45",
+            "name": "Txurdinaga",
+            "lat": "43.2595",
+            "lng": "-2.90635",
+            "linesId": [
+                "L3"
+            ]
+        },
+        {
+            "id": "46",
+            "name": "Zurbaranbarri",
+            "lat": "43.263941",
+            "lng": "-2.913535",
+            "linesId": [
+                "L3"
+            ]
+        },
+        {
+            "id": "47",
+            "name": "Uribarri",
+            "lat": "43.2669",
+            "lng": "-2.92015",
+            "linesId": [
+                "L3"
+            ]
+        },
+        {
+            "id": "48",
+            "name": "Matiko",
+            "lat": "43.2689",
+            "lng": "-2.92513",
+            "linesId": [
+                "L3"
+            ]
+        }
+    ],
+    "lines": [
+        {
+            "id": "0",
+            "name": "Línea 1",
+            "color": "#f15929",
+            "web": "",
+            "updatedOn": "",
+            "directions": [
+                {
+                    "id": "0",
+                    "name": "Ida",
+                    "from": "Etxebarri",
+                    "to": "Plentzia",
+                    "polyline": [],
+                    "timetable": [],
+                    "stopsIdWithStopTime": [
+                        {
+                            "id": "0",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "1",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "2",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "3",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "4",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "5",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "6",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "7",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "8",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "9",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "10",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "11",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "12",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "13",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "14",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "15",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "16",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "17",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "18",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "19",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "20",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "21",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "22",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "23",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "24",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "25",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "26",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "27",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "28",
+                            "stopTime": []
+                        }
+                    ]
+                },
+                {
+                    "id": "1",
+                    "name": "Vuelta",
+                    "from": "Plentzia",
+                    "to": "Etxebarri",
+                    "polyline": [],
+                    "timetable": [],
+                    "stopsIdWithStopTime": []
+                }
+            ]
+        },
+        {
+            "id": "1",
+            "name": "Línea 2",
+            "color": "#1e1e21",
+            "web": "",
+            "updatedOn": "",
+            "directions": [
+                {
+                    "id": "0",
+                    "name": "Ida",
+                    "from": "Basauri",
+                    "to": "Kabiezes",
+                    "polyline": [],
+                    "timetable": [],
+                    "stopsIdWithStopTime": [
+                        {
+                            "id": "29",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "30",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "0",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "1",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "2",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "3",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "4",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "5",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "6",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "7",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "8",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "9",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "10",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "11",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "31",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "32",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "33",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "34",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "35",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "36",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "37",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "38",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "39",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "40",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "42",
+                            "stopTime": []
+                        }
+                    ]
+                },
+                {
+                    "id": "1",
+                    "name": "Vuelta",
+                    "from": "Kabiezes",
+                    "to": "Basauri",
+                    "polyline": [],
+                    "timetable": [],
+                    "stopsIdWithStopTime": []
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Línea 3",
+            "color": "#e2007a",
+            "web": "",
+            "updatedOn": "",
+            "directions": [
+                {
+                    "id": "0",
+                    "name": "Ida",
+                    "from": "Kukullaga",
+                    "to": "Matiko",
+                    "polyline": [],
+                    "timetable": [],
+                    "stopsIdWithStopTime": [
+                        {
+                            "id": "43",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "44",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "45",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "46",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "4",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "47",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "48",
+                            "stopTime": []
+                        }
+                    ]
+                },
+                {
+                    "id": "1",
+                    "name": "Vuelta",
+                    "from": "Matiko",
+                    "to": "Kukullaga",
+                    "polyline": [],
+                    "timetable": [],
+                    "stopsIdWithStopTime": []
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Lanzadera a Mamariga",
+            "color": "",
+            "web": "",
+            "updatedOn": "",
+            "directions": []
+        }
+    ]
 }

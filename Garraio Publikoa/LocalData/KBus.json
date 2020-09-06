@@ -1,0 +1,11 @@
+{
+    "info": {
+        "id": "19",
+        "name": "KBus",
+        "type": "Bus",
+        "web": "http://www.kbus.es/",
+        "place": "Barakaldo"
+    },
+    "stops": [],
+    "lines": []
+}
