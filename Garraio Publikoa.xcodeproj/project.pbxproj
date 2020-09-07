@@ -12,6 +12,8 @@
 		1A159BC12504FEA800B98437 /* Bilbaobizi.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A159BC02504FEA800B98437 /* Bilbaobizi.json */; };
 		1A159BC32505672100B98437 /* EtxebarriBus.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A159BC22505672100B98437 /* EtxebarriBus.json */; };
 		1A159BC525056AD000B98437 /* KBus.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A159BC425056AD000B98437 /* KBus.json */; };
+		1A159BC725062C4500B98437 /* RenfeCercanias.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A159BC625062C4500B98437 /* RenfeCercanias.json */; };
+		1A159BC9250661CD00B98437 /* RenfeFeve.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A159BC8250661CD00B98437 /* RenfeFeve.json */; };
 		1A1FDD6124FABD430094EFBE /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1FDD6024FABD430094EFBE /* Stop.swift */; };
 		1A1FDD6324FABE250094EFBE /* StopTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1FDD6224FABE250094EFBE /* StopTime.swift */; };
 		1A1FDD6524FAF9B50094EFBE /* CompanyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1FDD6424FAF9B50094EFBE /* CompanyInfo.swift */; };
@@ -61,6 +63,8 @@
 		1A159BC02504FEA800B98437 /* Bilbaobizi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Bilbaobizi.json; sourceTree = "<group>"; };
 		1A159BC22505672100B98437 /* EtxebarriBus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = EtxebarriBus.json; sourceTree = "<group>"; };
 		1A159BC425056AD000B98437 /* KBus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = KBus.json; sourceTree = "<group>"; };
+		1A159BC625062C4500B98437 /* RenfeCercanias.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RenfeCercanias.json; sourceTree = "<group>"; };
+		1A159BC8250661CD00B98437 /* RenfeFeve.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RenfeFeve.json; sourceTree = "<group>"; };
 		1A1FDD6024FABD430094EFBE /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
 		1A1FDD6224FABE250094EFBE /* StopTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopTime.swift; sourceTree = "<group>"; };
 		1A1FDD6424FAF9B50094EFBE /* CompanyInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyInfo.swift; sourceTree = "<group>"; };
@@ -241,6 +245,8 @@
 				1A159BC02504FEA800B98437 /* Bilbaobizi.json */,
 				1A159BC22505672100B98437 /* EtxebarriBus.json */,
 				1A159BC425056AD000B98437 /* KBus.json */,
+				1A159BC625062C4500B98437 /* RenfeCercanias.json */,
+				1A159BC8250661CD00B98437 /* RenfeFeve.json */,
 			);
 			path = LocalData;
 			sourceTree = "<group>";
@@ -303,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A159BC9250661CD00B98437 /* RenfeFeve.json in Resources */,
 				1A88A7F624F67229004A149E /* FunicularLarreineta.json in Resources */,
 				1A88A7F424F670D2004A149E /* TranviaVitoria.json in Resources */,
 				1A159BBF2504F1DC00B98437 /* FunicularIgeldo.json in Resources */,
@@ -312,6 +319,7 @@
 				1A159BC525056AD000B98437 /* KBus.json in Resources */,
 				1A9943B024F0980500FC6D99 /* Irunbus.json in Resources */,
 				1A88A7F224F670B7004A149E /* TranviaBilbao.json in Resources */,
+				1A159BC725062C4500B98437 /* RenfeCercanias.json in Resources */,
 				1AF50D8A24EECB0400CDC057 /* Assets.xcassets in Resources */,
 				1A9943A824F08CFD00FC6D99 /* DBus.json in Resources */,
 				1A69209524F3DD7E00A87389 /* Alavabus.json in Resources */,

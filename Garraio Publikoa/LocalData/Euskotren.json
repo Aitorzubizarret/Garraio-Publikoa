@@ -1,11 +1,417 @@
 {
     "info": {
         "id": "11",
-        "company": "Euskotren",
+        "name": "Euskotren",
         "type": "Train",
         "web": "https://www.euskotren.eus",
         "place": "Euskadi"
     },
-    "stops": [],
-    "lines": []
+    "stops": [
+        {
+            "id": "0",
+            "name": "Matiko - Bilbao",
+            "lat": "43.2689",
+            "lng": "-2.92513",
+            "linesId": [
+                "E1", "E3", "E4"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Uribarri",
+            "lat": "43.2669",
+            "lng": "-2.92015",
+            "linesId": [
+                "E1", "E3", "E4"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Zazpikaleak / Casco Viejo",
+            "lat": "43.26",
+            "lng": "-2.921944",
+            "linesId": [
+                "E1", "E3", "E4"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Zurbaranberri",
+            "lat": "43.263941",
+            "lng": "-2.913535",
+            "linesId": [
+                "E1", "E3", "E4"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Txurdinaga",
+            "lat": "43.2595",
+            "lng": "-2.90635",
+            "linesId": [
+                "E1", "E3", "E4"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Otxarkoaga",
+            "lat": "43.258116",
+            "lng": "-2.900842",
+            "linesId": [
+                "E1", "E3", "E4"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Kukullaga / Etxebarri",
+            "lat": "43.251689",
+            "lng": "-2.889604",
+            "linesId": [
+                "E1", "E3", "E4"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Etxebarri",
+            "lat": "43.245467",
+            "lng": "-2.890915",
+            "linesId": [
+                "E1", "E4"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Ariz (Basauri)",
+            "lat": "43.240278",
+            "lng": "-2.879231",
+            "linesId": [
+                "E1", "E4"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Zuhatzu (Galdakao)",
+            "lat": "43.2288",
+            "lng": "-2.85388",
+            "linesId": [
+                "E1", "E4"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Usansolo",
+            "lat": "43.217787",
+            "lng": "-2.82178",
+            "linesId": [
+                "E1", "E4"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Bedia",
+            "lat": "43.206101",
+            "lng": "-2.797985",
+            "linesId": [
+                "E1", "E4"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Lemoa",
+            "lat": "43.20711",
+            "lng": "-2.775479",
+            "linesId": [
+                "E1", "E4"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Amorebieta",
+            "lat": "43.216772",
+            "lng": "-2.736459",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Euba",
+            "lat": "43.194673",
+            "lng": "-2.696912",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Durango",
+            "lat": "43.169519",
+            "lng": "-2.635032",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Traña",
+            "lat": "43.165288",
+            "lng": "-2.612544",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Berriz",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Zaldibar",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Ermua",
+            "lat": "43.185022",
+            "lng": "-2.500964",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Errotabarri",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "San Lorentzo",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Unibertsitatea",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Amaña",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Ardantza",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Eibar",
+            "lat": "43.186944",
+            "lng": "-2.465556",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Azitain",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Elgoibar",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Toletxegain",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Altzola",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Mendaro",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Deba",
+            "lat": "43.293542",
+            "lng": "-2.355441",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Arroa - Zumaia",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Zumaia",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Zarautz",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "San Pelaio",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Aia - Orio",
+            "lat": "43.27428",
+            "lng": "-2.125753",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Usurbil",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Errekalde",
+            "lat": "43.278869",
+            "lng": "-2.007197",
+            "linesId": [
+                "E1", "E2"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Añorga",
+            "lat": "43.302365",
+            "lng": "-2.000721",
+            "linesId": [
+                "E1", "E2"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Lugaritz",
+            "lat": "43.302364",
+            "lng": "-2.000722",
+            "linesId": [
+                "E1", "E2"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Bentaberri",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Kontxa",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "E1"
+            ]
+        },
+        {
+            "id": "0",
+            "name": "Amara - Donostia",
+            "lat": "43.313114",
+            "lng": "-1.981628",
+            "linesId": [
+                "E1", "E2", "E5"
+            ]
+        }
+    ],
+    "lines": [
+        {
+            "id": "0",
+            "name": "E1",
+            "color": "",
+            "web": "",
+            "updatedOn": "",
+            "directions": []
+        }
+    ]
 }

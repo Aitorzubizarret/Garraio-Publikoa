@@ -1,0 +1,1084 @@
+{
+    "info": {
+        "id": "19",
+        "name": "Renfe Cercanias",
+        "type": "Train",
+        "web": "https://www.renfe.com/es/es.html",
+        "place": "Euskadi"
+    },
+    "stops": [
+        {
+            "id": "0",
+            "name": "Bilbao Abando",
+            "lat": "43.260933",
+            "lng": "-2.927524",
+            "linesId": [
+                "C1-Bilbo", "C2-Bilbo", "C3-Bilbo"
+            ]
+        },
+        {
+            "id": "1",
+            "name": "Zabalburu",
+            "lat": "43.256025",
+            "lng": "-2.932722",
+            "linesId": [
+                "C1-Bilbo", "C2-Bilbo"
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Ametzola",
+            "lat": "43.255415",
+            "lng": "-2.942624",
+            "linesId": [
+                "C1-Bilbo", "C2-Bilbo"
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Autonomía",
+            "lat": "43.258194",
+            "lng": "-2.946043",
+            "linesId": [
+                "C1-Bilbo", "C2-Bilbo"
+            ]
+        },
+        {
+            "id": "4",
+            "name": "San Mamés",
+            "lat": "43.261778",
+            "lng": "-2.949083",
+            "linesId": [
+                "C1-Bilbo", "C2-Bilbo"
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Olabeaga",
+            "lat": "43.264276",
+            "lng": "-2.954838",
+            "linesId": [
+                "C1-Bilbo", "C2-Bilbo"
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Zorrotza",
+            "lat": "43.277986",
+            "lng": "-2.972553",
+            "linesId": [
+                "C1-Bilbo", "C2-Bilbo"
+            ]
+        },
+        {
+            "id": "7",
+            "name": "Lutxana",
+            "lat": "43.287731",
+            "lng": "-2.975529",
+            "linesId": [
+                "C1-Bilbo", "C2-Bilbo"
+            ]
+        },
+        {
+            "id": "8",
+            "name": "Barakaldo",
+            "lat": "43.3",
+            "lng": "-2.984167",
+            "linesId": [
+                "C1-Bilbo", "C2-Bilbo"
+            ]
+        },
+        {
+            "id": "9",
+            "name": "Sestao",
+            "lat": "43.308587",
+            "lng": "-2.994176",
+            "linesId": [
+                "C1-Bilbo"
+            ]
+        },
+        {
+            "id": "10",
+            "name": "La Iberia",
+            "lat": "43.312643",
+            "lng": "-3.004439",
+            "linesId": [
+                "C1-Bilbo"
+            ]
+        },
+        {
+            "id": "11",
+            "name": "Portugalete",
+            "lat": "43.3186",
+            "lng": "-3.01503",
+            "linesId": [
+                "C1-Bilbo"
+            ]
+        },
+        {
+            "id": "12",
+            "name": "Peñota",
+            "lat": "43.326323",
+            "lng": "-3.023565",
+            "linesId": [
+                "C1-Bilbo"
+            ]
+        },
+        {
+            "id": "13",
+            "name": "Santurtzi",
+            "lat": "43.328538",
+            "lng": "-3.029615",
+            "linesId": [
+                "C1-Bilbo"
+            ]
+        },
+        {
+            "id": "14",
+            "name": "Galindo",
+            "lat": "43.304016",
+            "lng": "-3.010056",
+            "linesId": [
+                "C2-Bilbo"
+            ]
+        },
+        {
+            "id": "15",
+            "name": "Trápaga",
+            "lat": "43.302722",
+            "lng": "-3.017373",
+            "linesId": [
+                "C2-Bilbo"
+            ]
+        },
+        {
+            "id": "16",
+            "name": "Valle de Trápaga / Trapagaran",
+            "lat": "43.301477",
+            "lng": "-3.02875",
+            "linesId": [
+                "C2-Bilbo"
+            ]
+        },
+        {
+            "id": "17",
+            "name": "Urioste",
+            "lat": "43.307534",
+            "lng": "-3.041104",
+            "linesId": [
+                "C2-Bilbo"
+            ]
+        },
+        {
+            "id": "18",
+            "name": "Sagrada Familia",
+            "lat": "43.308459",
+            "lng": "-3.05345",
+            "linesId": [
+                "C2-Bilbo"
+            ]
+        },
+        {
+            "id": "19",
+            "name": "Ortuella",
+            "lat": "43.3115",
+            "lng": "-3.0605",
+            "linesId": [
+                "C2-Bilbo"
+            ]
+        },
+        {
+            "id": "20",
+            "name": "Gallarta",
+            "lat": "43.3193",
+            "lng": "-3.06743",
+            "linesId": [
+                "C2-Bilbo"
+            ]
+        },
+        {
+            "id": "21",
+            "name": "Putxeta",
+            "lat": "43.315855",
+            "lng": "-3.090652",
+            "linesId": [
+                "C2-Bilbo"
+            ]
+        },
+        {
+            "id": "22",
+            "name": "Muskiz",
+            "lat": "43.321388",
+            "lng": "-3.112338",
+            "linesId": [
+                "C2-Bilbo"
+            ]
+        },
+        {
+            "id": "23",
+            "name": "Miribilla",
+            "lat": "43.2504",
+            "lng": "-2.93043",
+            "linesId": [
+                "C3-Bilbo"
+            ]
+        },
+        {
+            "id": "24",
+            "name": "La Peña",
+            "lat": "43.2401",
+            "lng": "-2.92401",
+            "linesId": [
+                "C3-Bilbo"
+            ]
+        },
+        {
+            "id": "25",
+            "name": "Ollargan",
+            "lat": "43.2424",
+            "lng": "-2.91654",
+            "linesId": [
+                "C3-Bilbo"
+            ]
+        },
+        {
+            "id": "26",
+            "name": "Bidebieta / Basauri",
+            "lat": "43.236902",
+            "lng": "-2.889614",
+            "linesId": [
+                "C3-Bilbo"
+            ]
+        },
+        {
+            "id": "27",
+            "name": "Abaroa / San Miguel",
+            "lat": "43.225589",
+            "lng": "-2.887101",
+            "linesId": [
+                "C3-Bilbo"
+            ]
+        },
+        {
+            "id": "28",
+            "name": "Basauri",
+            "lat": "43.223408",
+            "lng": "-2.882187",
+            "linesId": [
+                "C3-Bilbo"
+            ]
+        },
+        {
+            "id": "29",
+            "name": "Arrigorriaga",
+            "lat": "43.209995",
+            "lng": "-2.888685",
+            "linesId": [
+                "C3-Bilbo"
+            ]
+        },
+        {
+            "id": "30",
+            "name": "Ugao / Miraballes",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "C3-Bilbo"
+            ]
+        },
+        {
+            "id": "31",
+            "name": "Bakiola",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "C3-Bilbo"
+            ]
+        },
+        {
+            "id": "32",
+            "name": "Arrankudiaga",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "C3-Bilbo"
+            ]
+        },
+        {
+            "id": "33",
+            "name": "Arbide",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "C3-Bilbo"
+            ]
+        },
+        {
+            "id": "34",
+            "name": "Arakaldo",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "C3-Bilbo"
+            ]
+        },
+        {
+            "id": "35",
+            "name": "Areta",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "C3-Bilbo"
+            ]
+        },
+        {
+            "id": "36",
+            "name": "Llodio",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "C3-Bilbo"
+            ]
+        },
+        {
+            "id": "37",
+            "name": "Sta. Cruz de Llodio",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "C3-Bilbo"
+            ]
+        },
+        {
+            "id": "38",
+            "name": "Luiaondo",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "C3-Bilbo"
+            ]
+        },
+        {
+            "id": "39",
+            "name": "Salbio",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "C3-Bilbo"
+            ]
+        },
+        {
+            "id": "40",
+            "name": "Amurrio Iparralde",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "C3-Bilbo"
+            ]
+        },
+        {
+            "id": "41",
+            "name": "Amurrio",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "C3-Bilbo"
+            ]
+        },
+        {
+            "id": "42",
+            "name": "Iñarratxu",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "C3-Bilbo"
+            ]
+        },
+        {
+            "id": "43",
+            "name": "Orduña",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "C3-Bilbo"
+            ]
+        },
+        {
+            "id": "44",
+            "name": "Irun",
+            "lat": "43.339476",
+            "lng": "-1.80124",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "45",
+            "name": "Ventas de Irún / Irungo Bentak",
+            "lat": "43.330464",
+            "lng": "-1.816783",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "46",
+            "name": "Lezo - Errenteria",
+            "lat": "43.315943",
+            "lng": "-1.899497",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "47",
+            "name": "Pasajes",
+            "lat": "43.3189",
+            "lng": "-1.91714",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "48",
+            "name": "Herrera",
+            "lat": "43.319362",
+            "lng": "-1.93704",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "49",
+            "name": "Intxaurrondo",
+            "lat": "43.320015",
+            "lng": "-1.951774",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "50",
+            "name": "Ategorrieta",
+            "lat": "43.3204",
+            "lng": "-1.9598",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "51",
+            "name": "Gros",
+            "lat": "43.321785",
+            "lng": "-1.973857",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "52",
+            "name": "Donostia",
+            "lat": "43.317738",
+            "lng": "-1.976744",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "53",
+            "name": "Loiolako Erribera",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "54",
+            "name": "Loiola",
+            "lat": "43.304517",
+            "lng": "-1.963432",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "55",
+            "name": "Martutene",
+            "lat": "43.299062",
+            "lng": "-1.956176",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "56",
+            "name": "Hernani",
+            "lat": "43.272599",
+            "lng": "-1.963784",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "57",
+            "name": "Hernani - Centro / Hernani - Erdia",
+            "lat": "43.265601",
+            "lng": "-1.973358",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "58",
+            "name": "Urnieta",
+            "lat": "43.24756",
+            "lng": "-1.988473",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "59",
+            "name": "Andoain",
+            "lat": "43.222291",
+            "lng": "-2.015327",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "60",
+            "name": "Andoain - Centro / Andoain - Erdia",
+            "lat": "43.215541",
+            "lng": "-2.020406",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "61",
+            "name": "Billabona-Zizurkil",
+            "lat": "43.18921",
+            "lng": "-2.0554",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "62",
+            "name": "Anoeta",
+            "lat": "43.1623",
+            "lng": "-2.07014",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "63",
+            "name": "Tolosa - Centro / Tolosa - Erdia",
+            "lat": "43.139351",
+            "lng": "-2.07416",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "64",
+            "name": "Tolosa",
+            "lat": "43.135546",
+            "lng": "-2.079138",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "65",
+            "name": "Alegia",
+            "lat": "43.101753",
+            "lng": "-2.097231",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "66",
+            "name": "Ikaztegieta",
+            "lat": "43.094921",
+            "lng": "-2.124485",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "67",
+            "name": "Legorreta",
+            "lat": "43.085718",
+            "lng": "-2.140951",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "68",
+            "name": "Itsasondo",
+            "lat": "43.068445",
+            "lng": "-2.162605",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "69",
+            "name": "Ordizia",
+            "lat": "43.052758",
+            "lng": "-2.179222",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "70",
+            "name": "Beasain",
+            "lat": "43.046234",
+            "lng": "-2.202311",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "71",
+            "name": "Ormaiztegi",
+            "lat": "43.040262",
+            "lng": "-2.256421",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "72",
+            "name": "Zumarraga",
+            "lat": "43.087365",
+            "lng": "-2.319995",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "73",
+            "name": "Legazpia",
+            "lat": "43.050959",
+            "lng": "-2.330658",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        },
+        {
+            "id": "74",
+            "name": "Brinkola",
+            "lat": "43.018969",
+            "lng": "-2.334717",
+            "linesId": [
+                "C1-Donosti"
+            ]
+        }
+    ],
+    "lines": [
+        {
+            "id": "0",
+            "name": "C-1 Bilbao Abando - Santurtzi",
+            "color": "#fb0f0c",
+            "web": "",
+            "updatedOn": "",
+            "directions": [
+                {
+                    "id": "0",
+                    "name": "Ida",
+                    "from": "Bilbao Abando",
+                    "to": "Santurtzi",
+                    "polyline": [],
+                    "timetable": [],
+                    "stopsIdWithStopTime": [
+                        {
+                            "id": "0",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "1",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "2",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "3",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "4",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "5",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "6",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "7",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "8",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "9",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "10",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "11",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "12",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "13",
+                            "stopTime": []
+                        }
+                    ]
+                },
+                {
+                    "id": "1",
+                    "name": "Vuelta",
+                    "from": "Santurtzi",
+                    "to": "Bilbao Abando",
+                    "polyline": [],
+                    "timetable": [],
+                    "stopsIdWithStopTime": []
+                }
+            ]
+        },
+        {
+            "id": "1",
+            "name": "C-2 Bilbao Abando - Muskiz",
+            "color": "#008800",
+            "web": "",
+            "updatedOn": "",
+            "directions": [
+                {
+                    "id": "0",
+                    "name": "Ida",
+                    "from": "Bilbao Abando",
+                    "to": "Muskiz",
+                    "polyline": [],
+                    "timetable": [],
+                    "stopsIdWithStopTime": [
+                        {
+                            "id": "0",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "1",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "2",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "3",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "4",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "5",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "6",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "7",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "8",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "14",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "15",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "16",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "17",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "18",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "19",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "20",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "21",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "22",
+                            "stopTime": []
+                        }
+                    ]
+                },
+                {
+                    "id": "1",
+                    "name": "Vuelta",
+                    "from": "Muskiz",
+                    "to": "Bilbao Abando",
+                    "polyline": [],
+                    "timetable": [],
+                    "stopsIdWithStopTime": []
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "C-3 Bilbao Abando - Orduña",
+            "color": "#2f9aba",
+            "web": "",
+            "updatedOn": "",
+            "directions": [
+                {
+                    "id": "0",
+                    "name": "Ida",
+                    "from": "Bilbao Abando",
+                    "to": "Orduña",
+                    "polyline": [],
+                    "timetable": [],
+                    "stopsIdWithStopTime": [
+                        {
+                            "id": "0",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "23",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "24",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "25",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "26",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "27",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "28",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "29",
+                            "stopTime": []
+                        }
+                    ]
+                },
+                {
+                    "id": "1",
+                    "name": "Vuelta",
+                    "from": "Orduña",
+                    "to": "Bilbao Abando",
+                    "polyline": [],
+                    "timetable": [],
+                    "stopsIdWithStopTime": []
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "C-1 Irun - Brinkola",
+            "color": "#fb0704",
+            "web": "",
+            "updatedOn": "",
+            "directions": [
+                {
+                    "id": "0",
+                    "name": "Ida",
+                    "from": "Irun",
+                    "to": "Brinkola",
+                    "polyline": [],
+                    "timetable": [],
+                    "stopsIdWithStopTime": [
+                        {
+                            "id": "44",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "45",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "46",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "47",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "48",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "49",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "50",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "51",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "52",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "53",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "54",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "55",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "56",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "57",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "58",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "59",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "60",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "61",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "62",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "63",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "64",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "65",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "66",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "67",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "68",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "69",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "70",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "71",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "72",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "73",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "74",
+                            "stopTime": []
+                        }
+                    ]
+                },
+                {
+                    "id": "1",
+                    "name": "Vuelta",
+                    "from": "Brinkola",
+                    "to": "Irun",
+                    "polyline": [],
+                    "timetable": [],
+                    "stopsIdWithStopTime": []
+                }
+            ]
+        }
+    ]
+}
