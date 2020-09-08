@@ -31,6 +31,11 @@ enum FileName: String {
     case kbus = "KBus"
     case renfeCercanias = "RenfeCercanias"
     case renfeFeve = "RenfeFeve"
+    case zarauzkoHiribusa = "ZarauzkoHiribusa"
+    case hernanikoHiribusa = "HernanikoHiribusa"
+    case muittuManttangorri = "MuittuManttangorri"
+    case xorrolaAutobusa = "XorrolaAutobusa"
+    case bizkaiaZubia = "BizkaiaZubia"
 }
 
 class LocalFile {

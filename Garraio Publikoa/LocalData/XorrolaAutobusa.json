@@ -1,0 +1,11 @@
+{
+    "info": {
+        "id": "25",
+        "name": "Xorrola Autobusa",
+        "type": "Bus",
+        "web": "http://www.xorrolaautobusa.com/ruta/index.php",
+        "place": "Oiartzun"
+    },
+    "stops": [],
+    "lines": []
+}
