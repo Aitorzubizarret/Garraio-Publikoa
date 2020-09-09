@@ -14,4 +14,5 @@ struct CompanyInfo: Codable {
     let type: String
     let web: String
     let place: String
+    let color: String
 }

@@ -4,7 +4,8 @@
         "company": "Lurraldebus",
         "type": "Bus",
         "web": "http://www.lurraldebus.eus/",
-        "place": "Gipuzkoa"
+        "place": "Gipuzkoa",
+        "color": ""
     },
     "stops": [],
     "lines": []

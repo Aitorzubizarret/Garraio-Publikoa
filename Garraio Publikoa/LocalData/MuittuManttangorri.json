@@ -4,7 +4,8 @@
         "name": "Muittu Manttangorri",
         "type": "Bus",
         "web": "http://www.lasarte-oria.eus/eu/hiri-garraioa",
-        "place": "Lasarte-Oria"
+        "place": "Lasarte-Oria",
+        "color": ""
     },
     "stops": [],
     "lines": []

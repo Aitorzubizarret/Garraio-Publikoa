@@ -4,7 +4,8 @@
         "company": "DBus",
         "type": "Bus",
         "web": "https://www.dbus.eus/",
-        "place": "Donosti"
+        "place": "Donosti",
+        "color": ""
     },
     "stops": [],
     "lines": []

@@ -19,6 +19,7 @@
 		1A159BCF2507CAFC00B98437 /* MuittuManttangorri.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A159BCE2507CAFC00B98437 /* MuittuManttangorri.json */; };
 		1A159BD12507D5C200B98437 /* XorrolaAutobusa.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A159BD02507D5C200B98437 /* XorrolaAutobusa.json */; };
 		1A159BD32508034600B98437 /* BizkaiaZubia.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A159BD22508034600B98437 /* BizkaiaZubia.json */; };
+		1A159BD5250903AE00B98437 /* GetxoBizi.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A159BD4250903AE00B98437 /* GetxoBizi.json */; };
 		1A1FDD6124FABD430094EFBE /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1FDD6024FABD430094EFBE /* Stop.swift */; };
 		1A1FDD6324FABE250094EFBE /* StopTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1FDD6224FABE250094EFBE /* StopTime.swift */; };
 		1A1FDD6524FAF9B50094EFBE /* CompanyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1FDD6424FAF9B50094EFBE /* CompanyInfo.swift */; };
@@ -75,6 +76,7 @@
 		1A159BCE2507CAFC00B98437 /* MuittuManttangorri.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MuittuManttangorri.json; sourceTree = "<group>"; };
 		1A159BD02507D5C200B98437 /* XorrolaAutobusa.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = XorrolaAutobusa.json; sourceTree = "<group>"; };
 		1A159BD22508034600B98437 /* BizkaiaZubia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BizkaiaZubia.json; sourceTree = "<group>"; };
+		1A159BD4250903AE00B98437 /* GetxoBizi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GetxoBizi.json; sourceTree = "<group>"; };
 		1A1FDD6024FABD430094EFBE /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
 		1A1FDD6224FABE250094EFBE /* StopTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopTime.swift; sourceTree = "<group>"; };
 		1A1FDD6424FAF9B50094EFBE /* CompanyInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyInfo.swift; sourceTree = "<group>"; };
@@ -262,6 +264,7 @@
 				1A159BCE2507CAFC00B98437 /* MuittuManttangorri.json */,
 				1A159BD02507D5C200B98437 /* XorrolaAutobusa.json */,
 				1A159BD22508034600B98437 /* BizkaiaZubia.json */,
+				1A159BD4250903AE00B98437 /* GetxoBizi.json */,
 			);
 			path = LocalData;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				1A159BC32505672100B98437 /* EtxebarriBus.json in Resources */,
 				1A159BC525056AD000B98437 /* KBus.json in Resources */,
 				1A159BCB2507C67300B98437 /* ZarauzkoHiribusa.json in Resources */,
+				1A159BD5250903AE00B98437 /* GetxoBizi.json in Resources */,
 				1A9943B024F0980500FC6D99 /* Irunbus.json in Resources */,
 				1A88A7F224F670B7004A149E /* TranviaBilbao.json in Resources */,
 				1A159BC725062C4500B98437 /* RenfeCercanias.json in Resources */,

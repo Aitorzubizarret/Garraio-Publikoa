@@ -4,7 +4,8 @@
         "company": "Euskotren",
         "type": "Tram",
         "web": "https://www.euskotren.eus/en/tranvia/vitoria",
-        "place": "Gasteiz"
+        "place": "Gasteiz",
+        "color": ""
     },
     "stops": [],
     "lines": []

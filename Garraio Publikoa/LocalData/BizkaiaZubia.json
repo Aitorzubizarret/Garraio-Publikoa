@@ -4,7 +4,8 @@
         "name": "Bizkaia Zubia",
         "type": "CableCar",
         "web": "https://puente-colgante.com/eu/tarifak-eta-ordutegiak/",
-        "place": "Getxo"
+        "place": "Getxo",
+        "color": ""
     },
     "stops": [],
     "lines": []

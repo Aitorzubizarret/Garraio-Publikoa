@@ -4,7 +4,8 @@
         "name": "Renfe Cercanias",
         "type": "Train",
         "web": "https://www.renfe.com/es/es.html",
-        "place": "Euskadi"
+        "place": "Euskadi",
+        "color": ""
     },
     "stops": [
         {

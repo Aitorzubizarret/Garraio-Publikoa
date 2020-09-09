@@ -4,7 +4,8 @@
         "company": "Pesa",
         "type": "Bus",
         "web": "https://www.pesa.net",
-        "place": "Gipuzkoa"
+        "place": "Gipuzkoa",
+        "color": ""
     },
     "stops": [],
     "lines": []

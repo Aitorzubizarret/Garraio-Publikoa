@@ -4,7 +4,8 @@
         "name": "Metro Bilbao",
         "type": "Underground",
         "web": "https://www.metrobilbao.eus",
-        "place": "Bilbo"
+        "place": "Bilbo",
+        "color": ""
     },
     "stops": [
         {

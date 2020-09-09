@@ -4,7 +4,8 @@
         "company": "Tuvisa",
         "type": "Bus",
         "web": "https://www.vitoria-gasteiz.org/tuvisa",
-        "place": "Gasteiz"
+        "place": "Gasteiz",
+        "color": ""
     },
     "stops": [],
     "lines": []

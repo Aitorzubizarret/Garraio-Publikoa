@@ -4,7 +4,8 @@
         "name": "Zarauzko Hiribusa",
         "type": "Bus",
         "web": "http://www.zarauzkohiribusa.org/",
-        "place": "Zarautz"
+        "place": "Zarautz",
+        "color": ""
     },
     "stops": [],
     "lines": []

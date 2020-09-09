@@ -4,7 +4,8 @@
         "company": "Udalbus",
         "type": "Bus",
         "web": "https://www.euskotren.eus/en/autobus/udalbus",
-        "place": "Eibar"
+        "place": "Eibar",
+        "color": ""
     },
     "stops": [
         Tekniker - Amaña

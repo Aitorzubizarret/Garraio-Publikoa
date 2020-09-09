@@ -36,6 +36,7 @@ enum FileName: String {
     case muittuManttangorri = "MuittuManttangorri"
     case xorrolaAutobusa = "XorrolaAutobusa"
     case bizkaiaZubia = "BizkaiaZubia"
+    case getxoBizi = "GetxoBizi"
 }
 
 class LocalFile {

@@ -4,7 +4,8 @@
         "name": "Euskotren",
         "type": "Train",
         "web": "https://www.euskotren.eus",
-        "place": "Euskadi"
+        "place": "Euskadi",
+        "color": ""
     },
     "stops": [
         {
@@ -408,6 +409,22 @@
         {
             "id": "0",
             "name": "E1",
+            "color": "#007EC3",
+            "web": "",
+            "updatedOn": "",
+            "directions": []
+        },
+        {
+            "id": "0",
+            "name": "E3",
+            "color": "#007EC3",
+            "web": "",
+            "updatedOn": "",
+            "directions": []
+        },
+        {
+            "id": "0",
+            "name": "E4",
             "color": "#007EC3",
             "web": "",
             "updatedOn": "",

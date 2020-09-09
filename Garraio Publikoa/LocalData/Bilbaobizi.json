@@ -4,7 +4,8 @@
         "name": "Bilbao Bizi",
         "type": "Bicycle",
         "web": "https://www.bilbaobizi.bilbao.eus/es/bilbao/",
-        "place": "Bilbo"
+        "place": "Bilbo",
+        "color": ""
     },
     "stops": [
         {

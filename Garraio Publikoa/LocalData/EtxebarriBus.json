@@ -4,7 +4,8 @@
         "name": "Etxebarri Bus",
         "type": "Bus",
         "web": "http://www.etxebarri.eus/es-ES/Vivir/Transporte/Paginas/tran_EtxebarriBus.aspx",
-        "place": "Etxebarri"
+        "place": "Etxebarri",
+        "color": ""
     },
     "stops": [],
     "lines": []

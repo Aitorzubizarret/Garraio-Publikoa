@@ -4,7 +4,8 @@
         "company": "TUC",
         "type": "Bus",
         "web": "https://www.infotuc.es/index.php/es/",
-        "place": "Iruña"
+        "place": "Iruña",
+        "color": ""
     },
     "stops": [],
     "lines": []

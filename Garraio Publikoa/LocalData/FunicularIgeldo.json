@@ -4,7 +4,8 @@
         "name": "Funicular Donosti",
         "type": "CableCar",
         "web": "https://www.monteigueldo.es",
-        "place": "Donosti"
+        "place": "Donosti",
+        "color": ""
     },
     "stops": [
         {

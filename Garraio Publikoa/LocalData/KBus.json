@@ -4,7 +4,8 @@
         "name": "KBus",
         "type": "Bus",
         "web": "http://www.kbus.es/",
-        "place": "Barakaldo"
+        "place": "Barakaldo",
+        "color": ""
     },
     "stops": [],
     "lines": []

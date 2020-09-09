@@ -4,7 +4,8 @@
         "name": "Euskotren",
         "type": "CableCar",
         "web": "https://www.euskotren.eus/funicular",
-        "place": "Trapagaran"
+        "place": "Trapagaran",
+        "color": ""
     },
     "stops": [
         {

@@ -1,0 +1,104 @@
+{
+    "info": {
+        "id": "27",
+        "name": "Getxo Bizi",
+        "type": "Bicycle",
+        "web": "http://getxobizi.com/",
+        "place": "Getxo",
+        "color": "#C60D47"
+    },
+    "stops": [
+        {
+            "id": "0",
+            "name": "Salsidu",
+            "lat": "43.353545573217737",
+            "lng": "-3.004686789935602",
+            "linesId": []
+        },
+        {
+            "id": "1",
+            "name": "Molino Aixerrota",
+            "lat": "43.360232034851862",
+            "lng": "-3.019692206577192",
+            "linesId": []
+        },
+        {
+            "id": "2",
+            "name": "Punta Begoña",
+            "lat": "43.341053781753949",
+            "lng": "-3.013137073739344",
+            "linesId": []
+        },
+        {
+            "id": "3",
+            "name": "Playa de Ereaga",
+            "lat": "43.345661402007039",
+            "lng": "-3.011515277327309",
+            "linesId": []
+        },
+        {
+            "id": "4",
+            "name": "Polideportivo Gobela",
+            "lat": "43.331530928575425",
+            "lng": "-3.0075409817335",
+            "linesId": []
+        },
+        {
+            "id": "5",
+            "name": "Andra Mari",
+            "lat": "43.363300044384658",
+            "lng": "-3.017535905607267",
+            "linesId": []
+        },
+        {
+            "id": "6",
+            "name": "Bidezabal",
+            "lat": "43.356680480331633",
+            "lng": "-3.012252252837806",
+            "linesId": []
+        },
+        {
+            "id": "7",
+            "name": "Plaza de Algorta",
+            "lat": "43.35097732483861",
+            "lng": "-3.009468872774229",
+            "linesId": []
+        },
+        {
+            "id": "8",
+            "name": "Polideportivo Fadura",
+            "lat": "43.34854128233286",
+            "lng": "-3.000397753958143",
+            "linesId": []
+        },
+        {
+            "id": "9",
+            "name": "Ayuntamiento",
+            "lat": "43.343635406263431",
+            "lng": "-3.006509137913236",
+            "linesId": []
+        },
+        {
+            "id": "10",
+            "name": "Areeta",
+            "lat": "43.327609836028465",
+            "lng": "-3.010554922706814",
+            "linesId": []
+        },
+        {
+            "id": "11",
+            "name": "Puente de Bizkaia",
+            "lat": "43.323922",
+            "lng": "-3.016424",
+            "linesId": []
+        },
+        {
+            "id": "12",
+            "name": "Parque Gernika",
+            "lat": "43.340492",
+            "lng": "-3.001742",
+            "linesId": []
+        },
+    ],
+    "lines": []
+}

@@ -4,7 +4,8 @@
         "name": "Funicular Artxanda",
         "type": "CableCar",
         "web": "https://funicularartxanda.bilbao.eus/",
-        "place": "Bilbo"
+        "place": "Bilbo",
+        "color": ""
     },
     "stops": [
         {

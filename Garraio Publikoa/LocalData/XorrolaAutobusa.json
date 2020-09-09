@@ -4,7 +4,8 @@
         "name": "Xorrola Autobusa",
         "type": "Bus",
         "web": "http://www.xorrolaautobusa.com/ruta/index.php",
-        "place": "Oiartzun"
+        "place": "Oiartzun",
+        "color": ""
     },
     "stops": [],
     "lines": []
