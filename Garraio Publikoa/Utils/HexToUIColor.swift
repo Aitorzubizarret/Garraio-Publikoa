@@ -10,7 +10,8 @@ import UIKit
 
 ///
 /// Converts a Hex color code string into an UIColor.
-/// - Parameter hex: A 3 or 6 char Hex color code, with or without # char. Ex: #333, 333, #AA774D, AA774D.
+/// - Parameter hex: A 3 or 6 char Hex color code string, with or without # char. Ex: #333, 333, #AA774D, AA774D.
+/// - Returns: An optional UIColor?
 ///
 public func convertHexToUIColor(hex: String) -> UIColor? {
     
