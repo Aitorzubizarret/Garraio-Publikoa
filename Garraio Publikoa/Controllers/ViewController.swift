@@ -43,10 +43,7 @@ class ViewController: UIViewController {
     private func bind() {
         self.markerListViewModel.binding = {
             for company in self.markerListViewModel.companyList {
-                self.mapsFromApple?.addStops(stopList: company.stops)
-                for line in company.lines {
-                    self.mapsFromApple?.addLine(line: line)
-                }
+                self.mapsFromApple?.addCompany(company: company)
             }
         }
     }

@@ -53,7 +53,7 @@ class MapsFromApple: NSObject {
     /// Calls 'initialize' method with the received size to create the Map and sends back the mapView as UIView.
     ///
     /// - Parameter size: The size of the view.
-    /// - Returns: A UIView.
+    /// - Returns: The mapView as a UIView.
     ///
     public func getMapView(size: CGRect) -> UIView {
         self.initialize(size: size)
@@ -68,44 +68,44 @@ class MapsFromApple: NSObject {
     }
     
     ///
-    /// Adds a marker in the maps.
-    /// - Parameter id: The id that will be shown.
-    /// - Parameter lat: Latitude of the marker.
-    /// - Parameter lng: Longitude of the marker.
+    /// Adds a marker to the maps.
+    /// - Parameter stop: A Stop object.
+    /// - Parameter color: A UIColor.
     ///
-    public func addStop(stop: Stop) {
-//        let stop = MKPointAnnotation()
-//        stop.coordinate = CLLocationCoordinate2D(latitude: lat, longitude: lng)
-//        stop.title = asTitle
-//
-//        self.mapView?.addAnnotation(stop)
-        
+    public func addStop(stop: Stop, color: UIColor) {
         if let doubleLat = Double(stop.lat), let doubleLng = Double(stop.lng) {
             let coordinate: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: doubleLat, longitude: doubleLng)
-            let customMarker: CustomMarker = CustomMarker(coordinate: coordinate, title: stop.name, subtitle: "", companyId: "", stopId: stop.id)
+            let customMarker: CustomMarker = CustomMarker(coordinate: coordinate, title: stop.name, subtitle: "", companyId: "", stopId: stop.id, color: color)
             
             self.mapView?.addAnnotation(customMarker)
         }
     }
     
     ///
-    /// Adds a marker list in the maps.
+    /// Adds a marker list to the maps.
+    /// - Parameter stopList: A list of Stop objects.
+    /// - Parameter color: A UIColor.
     ///
-    public func addStops(stopList: [Stop]) {
+    public func addStops(stopList: [Stop], color: UIColor) {
         for stop in stopList {
-            self.addStop(stop: stop)
+            self.addStop(stop: stop, color: color)
         }
     }
     
     ///
-    /// Adds a line in the maps.
+    /// Adds a line with it's stops to the map.
+    /// - Parameter line: A line object.
+    /// - Parameter stopList: A list of Stop objects.
     ///
-    public func addLine(line: Line) {
+    public func addLineWithStops(line: Line, stopList: [Stop]) {
         
         // The color of the line.
-        var lineColor: UIColor? = convertHexToUIColor(hex: line.color)
+        let lineColor: UIColor = convertHexToUIColor(hex: line.color) ?? UIColor.black
         
+        // Each line has at least two directions.
         for direction in line.directions {
+            
+            // Creates the coordinates of the polyline.
             var polyline = direction.polyline
             var coordinates: [CLLocationCoordinate2D] = []
             
@@ -120,10 +120,56 @@ class MapsFromApple: NSObject {
             }
             
             // Creates a polyline with the coordinates and sets the color of the line.
-            let overlay = CustomPolyline(coordinates: &coordinates, count: coordinates.count)
+            let overlay: CustomPolyline = CustomPolyline(coordinates: &coordinates, count: coordinates.count)
             overlay.color = lineColor
             
+            // Adds the polyline to the map.
             self.mapView?.addOverlay(overlay)
+            
+            // The line / direction only has the ID's of the stops, so first we need to compare this ID's with the company stop list to get the info of each stop. After getting the info of our stops we are going to add those to the map.
+            for stopId in direction.stopsIdWithStopTime {
+                for stop in stopList {
+                    if stopId.id == stop.id {
+                        if let doubleLat = Double(stop.lat), let doubleLng = Double(stop.lng) {
+                            let coordinate: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: doubleLat, longitude: doubleLng)
+                            let customMarker: CustomMarker = CustomMarker(coordinate: coordinate, title: stop.name, subtitle: "", companyId: "", stopId: stop.id, color: lineColor)
+                            
+                            self.mapView?.addAnnotation(customMarker)
+                        }
+                        break
+                    }
+                }
+            }
+        }
+    }
+    
+    ///
+    /// Adds lines with it's stops to the maps.
+    /// - Parameter lineList: A list of Line objects.
+    /// - Parameter stopList: A list of Stop objects.
+    ///
+    public func addLinesWithStops(lineList: [Line], stopList: [Stop]) {
+        
+        for line in lineList {
+            self.addLineWithStops(line: line, stopList: stopList)
+        }
+    }
+    
+    ///
+    /// Adds the info from a company (lines and stops) to the maps.
+    /// - Parameter company: A Company.
+    ///
+    public func addCompany(company: Company) {
+        
+        // Get Company's color.
+        let companyColor: UIColor = convertHexToUIColor(hex: company.info.color) ?? UIColor.black
+        
+        // If the company doens't have lines but has stops, print them.
+        if (company.lines.isEmpty) && (!company.stops.isEmpty) {
+            self.addStops(stopList: company.stops, color: companyColor)
+        } else {
+            // Adds lines with it's stops.
+            self.addLinesWithStops(lineList: company.lines, stopList: company.stops)
         }
     }
     
@@ -135,24 +181,28 @@ extension MapsFromApple: MKMapViewDelegate {
     /// Method to draw the markers in the map.
     ///
     public func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-        
-        let identifier: String = "customMarker"
-        
-        var markerView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier)
-        
-        if markerView == nil {
-            markerView = MKAnnotationView(annotation: annotation, reuseIdentifier: identifier)
-            markerView!.canShowCallout = true // Shows the annotation title after tapping on the annotation icon.
+        if annotation.isKind(of: CustomMarker.self) {
+            let customMarker: CustomMarker = annotation as! CustomMarker
+            
+            let identifier: String = "customMarker"
+            
+            var markerView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier)
+            
+            if markerView == nil {
+                markerView = MKAnnotationView(annotation: customMarker, reuseIdentifier: identifier)
+                markerView!.canShowCallout = true // Shows the annotation title after tapping on the annotation icon.
+            } else {
+                markerView!.annotation = customMarker
+            }
+            
+            let color: UIColor = customMarker.color
+            markerView!.image = MapMarker().createSmallRoundedImageWithColor(color: color)
+            
+            return markerView
         } else {
-            markerView!.annotation = annotation
+            return nil
         }
-        
-        let color: UIColor = convertHexToUIColor(hex: "99cc13") ?? UIColor.black
-        markerView!.image = MapMarker().createSmallRoundedImageWithColor(color: color)
-        
-        return markerView
     }
-    
     
     ///
     /// Method to draw the polyline in the map.
@@ -175,6 +225,5 @@ extension MapsFromApple: MKMapViewDelegate {
         
         return MKPolylineRenderer()
     }
-    
     
 }

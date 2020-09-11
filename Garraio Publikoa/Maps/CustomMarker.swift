@@ -15,12 +15,14 @@ class CustomMarker: NSObject, MKAnnotation {
     var subtitle: String?
     var companyId: String?
     var stopId: String?
+    var color: UIColor
     
-    init(coordinate: CLLocationCoordinate2D, title: String, subtitle: String, companyId: String, stopId: String) {
+    init(coordinate: CLLocationCoordinate2D, title: String, subtitle: String, companyId: String, stopId: String, color: UIColor) {
         self.coordinate = coordinate
         self.title = title
         self.subtitle = subtitle
         self.companyId = companyId
         self.stopId = stopId
+        self.color = color
     }
 }
