@@ -5,7 +5,7 @@
         "type": "Bicycle",
         "web": "https://www.bilbaobizi.bilbao.eus/es/bilbao/",
         "place": "Bilbo",
-        "color": ""
+        "color": "#ee726c"
     },
     "stops": [
         {
@@ -226,14 +226,5 @@
             "linesId": []
         }
     ],
-    "lines": [
-        {
-            "id": "0",
-            "name": "Bilbaobizi",
-            "color": "#ee726c",
-            "web": "",
-            "updatedOn": "",
-            "directions": []
-        }
-    ]
+    "lines": []
 }

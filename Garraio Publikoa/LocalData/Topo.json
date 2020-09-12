@@ -1,0 +1,364 @@
+{
+    "info": {
+        "id": "28",
+        "name": "Topo",
+        "type": "Train",
+        "web": "https://www.topo.eus/",
+        "place": "Donostia",
+        "color": ""
+    },
+    "stops": [
+        {
+            "id": "0",
+            "name": "Lasarte-Oria",
+            "lat": "43.270729",
+            "lng": "-2.020105",
+            "linesId": [
+                "E2"
+            ]
+        },
+        {
+            "id": "1",
+            "name": "Errekalde",
+            "lat": "43.278869",
+            "lng": "-2.007197",
+            "linesId": [
+                "E2"
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Añorga",
+            "lat": "43.302365",
+            "lng": "-2.000721",
+            "linesId": [
+                "E2"
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Lugaritz",
+            "lat": "43.302364",
+            "lng": "-2.000722",
+            "linesId": [
+                "E2"
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Amara",
+            "lat": "43.313114",
+            "lng": "-1.981628",
+            "linesId": [
+                "E2", "E5"
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Anoeta",
+            "lat": "43.302156",
+            "lng": "-1.975242",
+            "linesId": [
+                "E2", "E5"
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Loiola",
+            "lat": "43.310729",
+            "lng": "-1.967595",
+            "linesId": [
+                "E2", "E5"
+            ]
+        },
+        {
+            "id": "7",
+            "name": "Intxaurrondo",
+            "lat": "43.313652",
+            "lng": "-1.956453",
+            "linesId": [
+                "E2", "E5"
+            ]
+        },
+        {
+            "id": "8",
+            "name": "Herrera",
+            "lat": "43.319693",
+            "lng": "-1.938996",
+            "linesId": [
+                "E2", "E5"
+            ]
+        },
+        {
+            "id": "9",
+            "name": "Pasaia",
+            "lat": "43.318308",
+            "lng": "-1.917903",
+            "linesId": [
+                "E2"
+            ]
+        },
+        {
+            "id": "10",
+            "name": "Galtzaraborda",
+            "lat": "43.312404",
+            "lng": "-1.906064",
+            "linesId": [
+                "E2"
+            ]
+        },
+        {
+            "id": "11",
+            "name": "Errenteria",
+            "lat": "43.311186",
+            "lng": "-1.89915",
+            "linesId": [
+                "E2"
+            ]
+        },
+        {
+            "id": "12",
+            "name": "Fanderia",
+            "lat": "43.308294",
+            "lng": "-1.889037",
+            "linesId": [
+                "E2"
+            ]
+        },
+        {
+            "id": "13",
+            "name": "Oiartzun",
+            "lat": "43.308611",
+            "lng": "-1.87963",
+            "linesId": [
+                "E2"
+            ]
+        },
+        {
+            "id": "14",
+            "name": "Gaintxurizketa",
+            "lat": "43.326833",
+            "lng": "-1.858472",
+            "linesId": [
+                "E2"
+            ]
+        },
+        {
+            "id": "15",
+            "name": "Irún Ventas / Irungo Bentak",
+            "lat": "43.330464",
+            "lng": "-1.816783",
+            "linesId": [
+                "E2"
+            ]
+        },
+        {
+            "id": "16",
+            "name": "Belaskoenea",
+            "lat": "",
+            "lng": "",
+            "linesId": [
+                "E2"
+            ]
+        },
+        {
+            "id": "17",
+            "name": "Irun Colon",
+            "lat": "43.340825",
+            "lng": "-1.795997",
+            "linesId": [
+                "E2"
+            ]
+        },
+        {
+            "id": "18",
+            "name": "Irun Ficoba",
+            "lat": "43.349276",
+            "lng": "-1.786468",
+            "linesId": [
+                "E2"
+            ]
+        },
+        {
+            "id": "19",
+            "name": "Hendaia",
+            "lat": "43.353333",
+            "lng": "-1.780833",
+            "linesId": [
+                "E2"
+            ]
+        },
+        {
+            "id": "20",
+            "name": "Altza",
+            "lat": "43.31641",
+            "lng": "-1.9309",
+            "linesId": [
+                "E5"
+            ]
+        }
+    ],
+    "lines": [
+        {
+            "id": "E2",
+            "name": "Lasarte - Hendaia",
+            "color": "",
+            "web": "",
+            "updatedOn": "",
+            "directions": [
+                {
+                    "id": "",
+                    "name": "",
+                    "from": "",
+                    "to": "",
+                    "polyline": [],
+                    "timetable": [],
+                    "stopsIdWithStopTime": [
+                        {
+                            "id": "0",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "1",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "2",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "3",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "4",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "5",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "6",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "7",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "8",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "9",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "10",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "11",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "12",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "13",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "14",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "15",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "16",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "17",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "18",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "19",
+                            "stopTime": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "",
+                    "from": "",
+                    "to": "",
+                    "polyline": [],
+                    "timetable": [],
+                    "stopsIdWithStopTime": []
+                }
+            ]
+        },
+        {
+            "id": "E5",
+            "name": "Amara - Altza",
+            "color": "",
+            "web": "",
+            "updatedOn": "",
+            "directions": [
+                {
+                    "id": "",
+                    "name": "",
+                    "from": "",
+                    "to": "",
+                    "polyline": [],
+                    "timetable": [],
+                    "stopsIdWithStopTime": [
+                        {
+                            "id": "4",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "5",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "6",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "7",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "8",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "20",
+                            "stopTime": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "",
+                    "from": "",
+                    "to": "",
+                    "polyline": [],
+                    "timetable": [],
+                    "stopsIdWithStopTime": []
+                }
+            ]
+        }
+    ]
+}
+
