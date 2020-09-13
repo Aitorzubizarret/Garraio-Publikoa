@@ -9,11 +9,16 @@
 import UIKit
 import MapKit
 
+protocol MapsActions {
+    func didTapStop()
+}
+
 class MapsFromApple: NSObject {
     
     // MARK: - Properties
     
     private var mapView:MKMapView? // The view with the embedded Apple Maps.
+    public var actionsDelegate: MapsActions? // The delegate for the 'MapsActions' protocol.
     
     // MARK: - Methods
     
@@ -190,7 +195,7 @@ extension MapsFromApple: MKMapViewDelegate {
             
             if markerView == nil {
                 markerView = MKAnnotationView(annotation: customMarker, reuseIdentifier: identifier)
-                markerView!.canShowCallout = true // Shows the annotation title after tapping on the annotation icon.
+                markerView!.canShowCallout = false // Hides the annotation title after tapping on the annotation icon.
             } else {
                 markerView!.annotation = customMarker
             }
@@ -202,6 +207,16 @@ extension MapsFromApple: MKMapViewDelegate {
         } else {
             return nil
         }
+    }
+    
+    ///
+    /// Method that gets the MKAnnotationView when the user selects it.
+    ///
+    func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
+        if let delegate = self.actionsDelegate {
+            delegate.didTapStop()
+        }
+        
     }
     
     ///

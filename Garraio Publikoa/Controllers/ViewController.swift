@@ -35,6 +35,8 @@ class ViewController: UIViewController {
         guard let maps = self.mapsFromApple else { return }
         
         self.view.addSubview(maps.getMapView(size: self.view.bounds)) // Adds the view (with the maps enbedded) into our main view.
+        
+        self.mapsFromApple?.actionsDelegate = self // This view controller will be the delegate of the 'MapsAction' protocol.
     }
     
     ///
@@ -57,3 +59,13 @@ class ViewController: UIViewController {
 
 }
 
+///
+/// MapsActions
+///
+extension ViewController: MapsActions {
+    func didTapStop() {
+        print("Tapped an stop marker.")
+    }
+    
+    
+}
