@@ -13,9 +13,9 @@ class ViewController: UIViewController {
     // MARK: - Properties
     var mapsFromApple: MapsFromApple?
     var markerListViewModel: MarkerListViewModel = MarkerListViewModel()
+    var infoPanel: InfoPanelViewController!
     
     // MARK: - Methods
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,6 +24,8 @@ class ViewController: UIViewController {
         self.bind()
         
         self.getLocalData()
+        
+        self.addInfoPanel()
     }
     
     ///
@@ -56,16 +58,46 @@ class ViewController: UIViewController {
     private func getLocalData() {
         self.markerListViewModel.getCompany(filename: FileName.bilbobus)
     }
-
+    
+    ///
+    /// Creates the ViewController to show the info of the stop.
+    ///
+    private func addInfoPanel() {
+        // Creates de ViewController.
+        infoPanel = InfoPanelViewController(nibName: "InfoPanelViewController", bundle: nil)
+        
+        // Adds the ViewController as a child and adds the view of the ViewController to the main view.
+        self.addChild(infoPanel)
+        self.view.addSubview(infoPanel.view)
+        
+        // Properties of the view.
+        infoPanel.view.frame = CGRect(x: 0, y: self.view.frame.height, width: self.view.frame.width, height: 300)
+        infoPanel.view.layer.cornerRadius = 24
+        infoPanel.view.layer.borderWidth = 1
+        infoPanel.view.layer.borderColor = UIColor.lightGray.cgColor
+        infoPanel.view.clipsToBounds = true
+    }
 }
 
 ///
 /// MapsActions
 ///
 extension ViewController: MapsActions {
-    func didTapStop() {
-        print("Tapped an stop marker.")
+    func showInfoPanel(text: String?) {
+        
+        // Updates the label of the InfoPanel.
+        infoPanel.stopNameLabel.text = text
+        
+        // Animates the InfoPanel frame position to show the view.
+        UIView.animate(withDuration: 0.16) {
+            self.infoPanel.view.frame.origin.y = self.view.frame.height - 300
+        }
     }
     
-    
+    func hideInfoPanel() {
+        // // Animates the InfoPanel frame position to hide the view.
+        UIView.animate(withDuration: 0.16) {
+            self.infoPanel.view.frame.origin.y = self.view.frame.height
+        }
+    }
 }

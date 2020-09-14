@@ -29,6 +29,8 @@
 		1A53CA6324FEF19600ECD615 /* HexToUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A53CA6224FEF19600ECD615 /* HexToUIColor.swift */; };
 		1A53CA6524FEF3CD00ECD615 /* CustomMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A53CA6424FEF3CD00ECD615 /* CustomMarker.swift */; };
 		1A594E90250A632D00305935 /* Topo.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A594E8F250A632D00305935 /* Topo.json */; };
+		1A594E93250EA9FA00305935 /* InfoPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A594E91250EA9FA00305935 /* InfoPanelViewController.swift */; };
+		1A594E94250EA9FA00305935 /* InfoPanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A594E92250EA9FA00305935 /* InfoPanelViewController.xib */; };
 		1A69208F24F3D96F00A87389 /* Lurraldebus.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A69208E24F3D96F00A87389 /* Lurraldebus.json */; };
 		1A69209324F3DBFD00A87389 /* TUC.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A69209224F3DBFD00A87389 /* TUC.json */; };
 		1A69209524F3DD7E00A87389 /* Alavabus.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A69209424F3DD7E00A87389 /* Alavabus.json */; };
@@ -87,6 +89,8 @@
 		1A53CA6224FEF19600ECD615 /* HexToUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexToUIColor.swift; sourceTree = "<group>"; };
 		1A53CA6424FEF3CD00ECD615 /* CustomMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarker.swift; sourceTree = "<group>"; };
 		1A594E8F250A632D00305935 /* Topo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Topo.json; sourceTree = "<group>"; };
+		1A594E91250EA9FA00305935 /* InfoPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelViewController.swift; sourceTree = "<group>"; };
+		1A594E92250EA9FA00305935 /* InfoPanelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoPanelViewController.xib; sourceTree = "<group>"; };
 		1A69208E24F3D96F00A87389 /* Lurraldebus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Lurraldebus.json; sourceTree = "<group>"; };
 		1A69209224F3DBFD00A87389 /* TUC.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TUC.json; sourceTree = "<group>"; };
 		1A69209424F3DD7E00A87389 /* Alavabus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Alavabus.json; sourceTree = "<group>"; };
@@ -139,6 +143,7 @@
 		1A412F3C24F560C00092BA89 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1A594E91250EA9FA00305935 /* InfoPanelViewController.swift */,
 				1AF50D8424EECB0300CDC057 /* ViewController.swift */,
 			);
 			path = Controllers;
@@ -150,6 +155,7 @@
 				1A13E30424F1BD3E005B21F0 /* Template.swift */,
 				1AF50D8624EECB0300CDC057 /* Main.storyboard */,
 				1AF50D8B24EECB0400CDC057 /* LaunchScreen.storyboard */,
+				1A594E92250EA9FA00305935 /* InfoPanelViewController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -333,6 +339,7 @@
 				1A594E90250A632D00305935 /* Topo.json in Resources */,
 				1A159BC9250661CD00B98437 /* RenfeFeve.json in Resources */,
 				1A88A7F624F67229004A149E /* FunicularLarreineta.json in Resources */,
+				1A594E94250EA9FA00305935 /* InfoPanelViewController.xib in Resources */,
 				1A88A7F424F670D2004A149E /* TranviaVitoria.json in Resources */,
 				1A159BD12507D5C200B98437 /* XorrolaAutobusa.json in Resources */,
 				1A159BBF2504F1DC00B98437 /* FunicularIgeldo.json in Resources */,
@@ -393,6 +400,7 @@
 				1AF3632024F710BA00811964 /* Line.swift in Sources */,
 				1AF3EFA524F8194D0055E4DF /* Company.swift in Sources */,
 				1A412F4024F562A40092BA89 /* MarkerListViewModel.swift in Sources */,
+				1A594E93250EA9FA00305935 /* InfoPanelViewController.swift in Sources */,
 				1A1FDD6324FABE250094EFBE /* StopTime.swift in Sources */,
 				1AF50D8324EECB0300CDC057 /* SceneDelegate.swift in Sources */,
 			);

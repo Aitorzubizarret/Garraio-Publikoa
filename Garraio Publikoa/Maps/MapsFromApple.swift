@@ -10,7 +10,8 @@ import UIKit
 import MapKit
 
 protocol MapsActions {
-    func didTapStop()
+    func showInfoPanel(text: String?)
+    func hideInfoPanel()
 }
 
 class MapsFromApple: NSObject {
@@ -210,13 +211,21 @@ extension MapsFromApple: MKMapViewDelegate {
     }
     
     ///
-    /// Method that gets the MKAnnotationView when the user selects it.
+    /// Method detects the tap on an annotation.
     ///
     func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
         if let delegate = self.actionsDelegate {
-            delegate.didTapStop()
+            delegate.showInfoPanel(text: view.annotation?.title ?? nil)
         }
-        
+    }
+    
+    ///
+    /// Method detects the tap outside an annotation when an annotation was previously seleccted.
+    ///
+    func mapView(_ mapView: MKMapView, didDeselect view: MKAnnotationView) {
+        if let delegate = self.actionsDelegate {
+            delegate.hideInfoPanel()
+        }
     }
     
     ///
