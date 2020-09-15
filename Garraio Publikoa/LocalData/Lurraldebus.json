@@ -1,11 +1,11 @@
 {
     "info": {
         "id": "6",
-        "company": "Lurraldebus",
+        "name": "Lurraldebus",
         "type": "Bus",
         "web": "http://www.lurraldebus.eus/",
         "place": "Gipuzkoa",
-        "color": ""
+        "color": "#00a0ae"
     },
     "stops": [],
     "lines": []

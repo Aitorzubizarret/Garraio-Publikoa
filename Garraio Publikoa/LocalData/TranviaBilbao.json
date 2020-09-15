@@ -5,7 +5,7 @@
         "type": "Tram",
         "web": "https://www.euskotren.eus/en/tranvia/bilbao",
         "place": "Bilbo",
-        "color": ""
+        "color": "#006f2b"
     },
     "stops": [
         {

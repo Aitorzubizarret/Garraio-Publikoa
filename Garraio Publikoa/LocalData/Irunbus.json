@@ -1,11 +1,11 @@
 {
     "info": {
         "id": "5",
-        "company": "Irunbus",
+        "name": "Irunbus",
         "type": "Bus",
         "web": "https://auif.es/lineas-autobuses-urbanas-irun/",
         "place": "Irun",
-        "color": ""
+        "color": "#cd1319"
     },
     "stops": [],
     "lines": []

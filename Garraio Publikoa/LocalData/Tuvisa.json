@@ -1,11 +1,11 @@
 {
     "info": {
         "id": "2",
-        "company": "Tuvisa",
+        "name": "Tuvisa",
         "type": "Bus",
         "web": "https://www.vitoria-gasteiz.org/tuvisa",
         "place": "Gasteiz",
-        "color": ""
+        "color": "#1a7d1f"
     },
     "stops": [],
     "lines": []

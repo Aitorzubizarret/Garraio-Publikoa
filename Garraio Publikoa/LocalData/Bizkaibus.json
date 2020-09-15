@@ -1,11 +1,11 @@
 {
     "info": {
         "id": "4",
-        "company": "Bizkaibus",
+        "name": "Bizkaibus",
         "type": "Bus",
         "web": "https://web.bizkaia.eus/eu/web/bizkaibus",
         "place": "Bizkaia",
-        "color": ""
+        "color": "#d20a11"
     },
     "stops": [],
     "lines": []

@@ -5,7 +5,7 @@
         "type": "Bus",
         "web": "http://www.kbus.es/",
         "place": "Barakaldo",
-        "color": ""
+        "color": "#f11d20"
     },
     "stops": [],
     "lines": []

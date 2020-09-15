@@ -5,7 +5,7 @@
         "type": "Train",
         "web": "https://www.renfe.com/es/es.html",
         "place": "Euskadi",
-        "color": ""
+        "color": "#8a0072"
     },
     "stops": [
         {

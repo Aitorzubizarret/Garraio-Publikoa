@@ -5,7 +5,7 @@
         "type": "Train",
         "web": "https://www.euskotren.eus",
         "place": "Euskadi",
-        "color": ""
+        "color": "#004494"
     },
     "stops": [
         {

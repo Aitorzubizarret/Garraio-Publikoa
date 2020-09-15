@@ -5,7 +5,7 @@
         "type": "Underground",
         "web": "https://www.metrobilbao.eus",
         "place": "Bilbo",
-        "color": ""
+        "color": "#FF4105"
     },
     "stops": [
         {

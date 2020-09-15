@@ -1,11 +1,11 @@
 {
     "info": {
         "id": "9",
-        "company": "Alavabus",
+        "name": "Alavabus",
         "type": "Bus",
         "web": "http://www.araba.eus/alavabus/",
         "place": "Araba",
-        "color": ""
+        "color": "#a8034f"
     },
     "stops": [],
     "lines": []

@@ -1,14 +1,13 @@
 {
     "info": {
         "id": "3",
-        "company": "Udalbus",
+        "name": "Udalbus",
         "type": "Bus",
         "web": "https://www.euskotren.eus/en/autobus/udalbus",
         "place": "Eibar",
         "color": ""
     },
     "stops": [
-        Tekniker - Amaña
         {
             "id": "",
             "name": "Tekniker",
@@ -217,33 +216,7 @@
                     "id": ""
                 }
             ]
-        }
-        
-        Amaña - Tekniker
-        TIBURCIO ANITUA 25
-        Unibertsitatea
-        OTAOLA
-        ESCUELA DE ARMERIA
-        POLIKIROLDEGIA
-        IPURUA
-        SOSTOATARREN
-        UBITXA
-        PAZIANO AROSA
-        POLONIA ETXEBARRIA
-        URKI
-        UBITXA
-        UNTZAGA
-        BIDEBARRIETA 28
-        URTZAILE
-        TXONTA
-        AGIÑASPI
-        BARRENA
-        AZITAIN
-        IPARRAGIRRE
-        SARATSUEGI
-        Debegesa
-        Tekniker
-        
+        },
         {
             "id": "",
             "name": "Tiburcio Anitua 25 / Amaña",
