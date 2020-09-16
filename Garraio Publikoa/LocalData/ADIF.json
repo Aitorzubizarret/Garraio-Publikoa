@@ -1,0 +1,112 @@
+{
+    "info": {
+        "id": "29",
+        "name": "ADIF",
+        "type": "Train",
+        "web": "http://www.adif.es/es_ES/index.shtml",
+        "place": "Euskal Herria",
+        "color": "#336633"
+    },
+    "stops": [
+        {
+            "id": "0",
+            "name": "Iruña / Pamplona",
+            "lat": "42.824853",
+            "lng": "-1.661328",
+            "linesId": []
+        },
+        {
+            "id": "1",
+            "name": "Tutera / Tudela",
+            "lat": "42.059338",
+            "lng": "-1.59798",
+            "linesId": []
+        },
+        {
+            "id": "2",
+            "name": "Castejón de Ebro",
+            "lat": "42.1728476",
+            "lng": "-1.6924327",
+            "linesId": []
+        },
+        {
+            "id": "3",
+            "name": "Cortes de Navarra",
+            "lat": "41.9148676141244",
+            "lng": "-1.4204639832918",
+            "linesId": []
+        },
+        {
+            "id": "4",
+            "name": "Ribaforada",
+            "lat": "41.9970997945811",
+            "lng": "-1.51516955408446",
+            "linesId": []
+        },
+        {
+            "id": "5",
+            "name": "Tafalla",
+            "lat": "42.5257632",
+            "lng": "-1.6714360",
+            "linesId": []
+        },
+        {
+            "id": "6",
+            "name": "Gasteiz / Vitoria",
+            "lat": "42.841404",
+            "lng": "-2.672844",
+            "linesId": []
+        },
+        {
+            "id": "7",
+            "name": "Agurain / Salvatierra",
+            "lat": "42.8463927134546",
+            "lng": "-2.38887028050561",
+            "linesId": []
+        },
+        {
+            "id": "8",
+            "name": "Bilbo",
+            "lat": "43.260933",
+            "lng": "-2.927524",
+            "linesId": []
+        },
+        {
+            "id": "9",
+            "name": "Donosti / San Sebastián",
+            "lat": "43.31763",
+            "lng": "-1.976646",
+            "linesId": []
+        },
+        {
+            "id": "10",
+            "name": "Beasain",
+            "lat": "43.0462544230066",
+            "lng": "-2.20218502203245",
+            "linesId": []
+        },
+        {
+            "id": "11",
+            "name": "Irun",
+            "lat": "43.338989",
+            "lng": "-1.800962",
+            "linesId": []
+        },
+        {
+            "id": "12",
+            "name": "Tolosa",
+            "lat": "43.135723337317",
+            "lng": "-2.07926344655688",
+            "linesId": []
+        },
+        {
+            "id": "13",
+            "name": "Zumarraga",
+            "lat": "43.0872741316483",
+            "lng": "-2.319960276548",
+            "linesId": []
+        }
+    ],
+    "lines": []
+}
+

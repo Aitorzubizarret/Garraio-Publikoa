@@ -7,6 +7,521 @@
         "place": "Gasteiz",
         "color": "#006f2b"
     },
-    "stops": [],
-    "lines": []
+    "stops": [
+        {
+            "id": "0",
+            "name": "Landaberde",
+            "lat": "42.866192823863585",
+            "lng": "-2.69847594673929",
+            "linesId": [
+                "0"
+            ]
+        },
+        {
+            "id": "1",
+            "name": "Lakuabizkarra",
+            "lat": "42.863075491117044",
+            "lng": "-2.694512623026709",
+            "linesId": [
+                "0"
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Wellington",
+            "lat": "42.859935689801326",
+            "lng": "-2.6922880173683814",
+            "linesId": [
+                "0"
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Txagorritxu",
+            "lat": "42.85690085266123",
+            "lng": "-2.68893700364055",
+            "linesId": [
+                "0"
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Euskal Herria",
+            "lat": "42.85805171159694",
+            "lng": "-2.684977536497991",
+            "linesId": [
+                "0"
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Honduras",
+            "lat": "42.85725775834972",
+            "lng": "-2.6811870574618037",
+            "linesId": [
+                "0"
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Europa",
+            "lat": "42.852455335361206",
+            "lng": "-2.680257085051954",
+            "linesId": [
+                "0"
+            ]
+        },
+        {
+            "id": "7",
+            "name": "Antso jakituna / Sancho el Sabio",
+            "lat": "42.848041904964674",
+            "lng": "-2.679961646970324",
+            "linesId": [
+                "0"
+            ]
+        },
+        {
+            "id": "8",
+            "name": "Lovaina",
+            "lat": "42.84617368194623",
+            "lng": "-2.6784904712187587",
+            "linesId": [
+                "0"
+            ]
+        },
+        {
+            "id": "9",
+            "name": "Legebiltzarra / Parlamento",
+            "lat": "42.84527941425575",
+            "lng": "-2.6743341870242907",
+            "linesId": [
+                "0"
+            ]
+        },
+        {
+            "id": "10",
+            "name": "Angulema",
+            "lat": "42.843314988088736",
+            "lng": "-2.6676260536452316",
+            "linesId": [
+                "0"
+            ]
+        },
+        {
+            "id": "11",
+            "name": "Intermodal",
+            "lat": "42.86031479676719",
+            "lng": "-2.6827136924036146",
+            "linesId": [
+                "0"
+            ]
+        },
+        {
+            "id": "12",
+            "name": "Forondako atea / Portal de Foronda",
+            "lat": "42.8628860744916",
+            "lng": "-2.6844388163275186",
+            "linesId": [
+                ""
+            ]
+        },
+        {
+            "id": "13",
+            "name": "Gernikako arbola",
+            "lat": "42.86490157834896",
+            "lng": "-2.680584600441046",
+            "linesId": [
+                ""
+            ]
+        },
+        {
+            "id": "14",
+            "name": "Arriaga",
+            "lat": "42.866643167221255",
+            "lng": "-2.6786413497982213",
+            "linesId": [
+                ""
+            ]
+        },
+        {
+            "id": "15",
+            "name": "Artapadura",
+            "lat": "42.86945723247698",
+            "lng": "     -2.680218313171137",
+            "linesId": [
+                ""
+            ]
+        },
+        {
+            "id": "16",
+            "name": "Abetxuko",
+            "lat": "42.87380068648251",
+            "lng": "-2.6812610853640466",
+            "linesId": [
+                ""
+            ]
+        },
+        {
+            "id": "17",
+            "name": "Ibaiondo",
+            "lat": "42.864788464144134",
+            "lng": "-2.702094130102334",
+            "linesId": [
+                "0"
+            ]
+        },
+        {
+            "id": "18",
+            "name": "Kristo",
+            "lat": "42.874012",
+            "lng": "-2.677514",
+            "linesId": [
+                ""
+            ]
+        },
+        {
+            "id": "19",
+            "name": "Kañabenta",
+            "lat": "42.876207",
+            "lng": "-2.679686",
+            "linesId": [
+                ""
+            ]
+        },
+        {
+            "id": "20",
+            "name": "Florida",
+            "lat": "42.842083",
+            "lng": "-2.664915",
+            "linesId": [
+                ""
+            ]
+        },
+        {
+            "id": "21",
+            "name": "Hegoaldea",
+            "lat": "42.838732",
+            "lng": "-2.666817",
+            "linesId": [
+                "0"
+            ]
+        },
+        {
+            "id": "22",
+            "name": "Unibertsitatea",
+            "lat": "42.837018",
+            "lng": "-2.672501",
+            "linesId": [
+                "0"
+            ]
+        }
+    ],
+    "lines": [
+        {
+            "id": "0",
+            "name": "Ibaiondo - Unibertsitatea",
+            "color": "#006f2b",
+            "web": "https://www.euskotren.eus/sites/default/files/horarios/VG%20Tranbiaren%20Ordutegiak%20V4_2.pdf",
+            "updatedOn": "2020/09/16",
+            "directions": [
+                {
+                    "id": "0",
+                    "name": "Ida",
+                    "from": "Ibaiondo",
+                    "to": "Unibertsitatea",
+                    "polyline": [],
+                    "timetable": [
+                        {
+                            "id": "",
+                            "name": "",
+                            "startTime": "",
+                            "endTime": "",
+                            "journeyDurationMin": 0
+                        }
+                    ],
+                    "stopsIdWithStopTime": [
+                        {
+                            "id": "17",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "0",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "1",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "2",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "3",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "4",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "5",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "6",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "7",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "8",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "9",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "10",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "11",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "21",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "22",
+                            "stopTime": []
+                        }
+                    ]
+                },
+                {
+                    "id": "1",
+                    "name": "Vuelta",
+                    "from": "Unibertsitatea",
+                    "to": "Ibaiondo",
+                    "polyline": [],
+                    "timetable": [],
+                    "stopsIdWithStopTime": [
+                        {
+                            "id": "22",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "21",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "20",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "10",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "9",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "8",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "7",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "6",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "5",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "4",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "3",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "2",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "1",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "0",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "17",
+                            "stopTime": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1",
+            "name": "Abetxuko - Florida",
+            "color": "#006f2b",
+            "web": "https://www.euskotren.eus/sites/default/files/horarios/VG%20Tranbiaren%20Ordutegiak%20V4_2.pdf",
+            "updatedOn": "2020/09/16",
+            "directions": [
+                {
+                    "id": "0",
+                    "name": "Ida",
+                    "from": "Abetxuko",
+                    "to": "Florida",
+                    "polyline": [],
+                    "timetable": [],
+                    "stopsIdWithStopTime": [
+                        {
+                            "id": "16",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "18",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "19",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "15",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "14",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "13",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "12",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "11",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "5",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "6",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "7",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "8",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "9",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "10",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "20",
+                            "stopTime": []
+                        },
+                    ]
+                },
+                {
+                    "id": "1",
+                    "name": "Vuelta",
+                    "from": "Florida",
+                    "to": "Abetxuko",
+                    "polyline": [],
+                    "timetable": [],
+                    "stopsIdWithStopTime": [
+                        {
+                            "id": "20",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "10",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "9",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "8",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "7",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "6",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "5",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "11",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "12",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "13",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "14",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "15",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "19",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "18",
+                            "stopTime": []
+                        },
+                        {
+                            "id": "16",
+                            "stopTime": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

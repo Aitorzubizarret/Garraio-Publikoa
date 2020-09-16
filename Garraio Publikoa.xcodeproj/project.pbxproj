@@ -50,6 +50,7 @@
 		1A9943AC24F092D200FC6D99 /* Udalbus.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A9943AB24F092D200FC6D99 /* Udalbus.json */; };
 		1A9943AE24F095C900FC6D99 /* Bizkaibus.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A9943AD24F095C900FC6D99 /* Bizkaibus.json */; };
 		1A9943B024F0980500FC6D99 /* Irunbus.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A9943AF24F0980500FC6D99 /* Irunbus.json */; };
+		1AE257DE2512382700211C7C /* ADIF.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AE257DD2512382700211C7C /* ADIF.json */; };
 		1AF3632024F710BA00811964 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF3631F24F710BA00811964 /* Line.swift */; };
 		1AF3EFA524F8194D0055E4DF /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF3EFA424F8194D0055E4DF /* Company.swift */; };
 		1AF3EFA724F81D460055E4DF /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF3EFA624F81D460055E4DF /* Direction.swift */; };
@@ -110,6 +111,7 @@
 		1A9943AB24F092D200FC6D99 /* Udalbus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Udalbus.json; sourceTree = "<group>"; };
 		1A9943AD24F095C900FC6D99 /* Bizkaibus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Bizkaibus.json; sourceTree = "<group>"; };
 		1A9943AF24F0980500FC6D99 /* Irunbus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Irunbus.json; sourceTree = "<group>"; };
+		1AE257DD2512382700211C7C /* ADIF.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ADIF.json; sourceTree = "<group>"; };
 		1AF3631F24F710BA00811964 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 		1AF3EFA424F8194D0055E4DF /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		1AF3EFA624F81D460055E4DF /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
@@ -274,6 +276,7 @@
 				1A159BD22508034600B98437 /* BizkaiaZubia.json */,
 				1A159BD4250903AE00B98437 /* GetxoBizi.json */,
 				1A594E8F250A632D00305935 /* Topo.json */,
+				1AE257DD2512382700211C7C /* ADIF.json */,
 			);
 			path = LocalData;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 				1A159BD5250903AE00B98437 /* GetxoBizi.json in Resources */,
 				1A9943B024F0980500FC6D99 /* Irunbus.json in Resources */,
 				1A88A7F224F670B7004A149E /* TranviaBilbao.json in Resources */,
+				1AE257DE2512382700211C7C /* ADIF.json in Resources */,
 				1A159BC725062C4500B98437 /* RenfeCercanias.json in Resources */,
 				1AF50D8A24EECB0400CDC057 /* Assets.xcassets in Resources */,
 				1A9943A824F08CFD00FC6D99 /* DBus.json in Resources */,

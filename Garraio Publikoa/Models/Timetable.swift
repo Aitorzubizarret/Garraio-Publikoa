@@ -13,5 +13,5 @@ struct Timetable: Codable {
     let name: String
     let startTime: String
     let endTime: String
-    let journeyDurationMin: String
+    let journeyDurationMin: Int
 }

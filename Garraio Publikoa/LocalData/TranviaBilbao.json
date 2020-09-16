@@ -247,7 +247,7 @@
                             "name": "a",
                             "startTime": "a",
                             "endTime": "a",
-                            "journeyDurationMin": "20"
+                            "journeyDurationMin": 20
                         }
                     ],
                     "stopsIdWithStopTime": [
@@ -329,7 +329,7 @@
                             "name": "0",
                             "startTime": "0",
                             "endTime": "0",
-                            "journeyDurationMin": "0"
+                            "journeyDurationMin": 0
                         }
                     ],
                     "stopsIdWithStopTime": [

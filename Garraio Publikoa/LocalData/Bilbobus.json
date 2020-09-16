@@ -481,21 +481,21 @@
                             "name": "WorkingDays",
                             "startTime": "06:20",
                             "endTime": "22:00",
-                            "journeyDurationMin": "20"
+                            "journeyDurationMin": 20
                         },
                         {
                             "id": "1",
                             "name": "Saturdays",
                             "startTime": "06:30",
                             "endTime": "22:30",
-                            "journeyDurationMin": "30"
+                            "journeyDurationMin": 30
                         },
                         {
                             "id": "2",
                             "name": "holydays",
                             "startTime": "07:30",
                             "endTime": "22:30",
-                            "journeyDurationMin": "30"
+                            "journeyDurationMin": 30
                         }
                     ],
                     "stopsIdWithStopTime": [
@@ -591,21 +591,21 @@
                             "name": "WorkingDays",
                             "startTime": "06:30",
                             "endTime": "22:30",
-                            "journeyDurationMin": "20"
+                            "journeyDurationMin": 20
                         },
                         {
                             "id": "1",
                             "name": "Saturdays",
                             "startTime": "07:00",
                             "endTime": "22:30",
-                            "journeyDurationMin": "30"
+                            "journeyDurationMin": 30
                         },
                         {
                             "id": "2",
                             "name": "holydays",
                             "startTime": "07:30",
                             "endTime": "22:30",
-                            "journeyDurationMin": "30"
+                            "journeyDurationMin": 30
                         }
                     ],
                     "stopsIdWithStopTime": [
@@ -714,7 +714,7 @@
                             "name": "WorkingDays",
                             "startTime": "",
                             "endTime": "",
-                            "journeyDurationMin": "0"
+                            "journeyDurationMin": 0
                         }
                     ],
                     "stopsIdWithStopTime": [
@@ -776,7 +776,7 @@
                             "name": "WorkingDays",
                             "startTime": "",
                             "endTime": "",
-                            "journeyDurationMin": "0"
+                            "journeyDurationMin": 0
                         }
                     ],
                     "stopsIdWithStopTime": [
