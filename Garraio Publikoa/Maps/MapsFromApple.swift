@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 
 protocol MapsActions {
-    func showInfoPanel(text: String?)
+    func showInfoPanel(marker: CustomMarker?)
     func hideInfoPanel()
 }
 
@@ -78,11 +78,17 @@ class MapsFromApple: NSObject {
     /// - Parameter stop: A Stop object.
     /// - Parameter color: A UIColor.
     ///
-    public func addStop(stop: Stop, color: UIColor) {
+    public func addStop(stop: Stop, companyInfo: CompanyInfo) {
         if let doubleLat = Double(stop.lat), let doubleLng = Double(stop.lng) {
             let coordinate: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: doubleLat, longitude: doubleLng)
-            let customMarker: CustomMarker = CustomMarker(coordinate: coordinate, title: stop.name, subtitle: "", companyId: "", stopId: stop.id, color: color)
             
+            // The color of the stop.
+            let stopColor: UIColor = convertHexToUIColor(hex: companyInfo.color) ?? UIColor.black
+            
+            // Creates a marker.
+            let customMarker: CustomMarker = CustomMarker(coordinate: coordinate, title: stop.name, subtitle: "", companyId: companyInfo.id, companyName: companyInfo.name, stopId: stop.id, color: stopColor)
+            
+            // Adds the marker to the map.
             self.mapView?.addAnnotation(customMarker)
         }
     }
@@ -92,9 +98,9 @@ class MapsFromApple: NSObject {
     /// - Parameter stopList: A list of Stop objects.
     /// - Parameter color: A UIColor.
     ///
-    public func addStops(stopList: [Stop], color: UIColor) {
+    public func addStops(stopList: [Stop], companyInfo: CompanyInfo) {
         for stop in stopList {
-            self.addStop(stop: stop, color: color)
+            self.addStop(stop: stop, companyInfo: companyInfo)
         }
     }
     
@@ -103,7 +109,7 @@ class MapsFromApple: NSObject {
     /// - Parameter line: A line object.
     /// - Parameter stopList: A list of Stop objects.
     ///
-    public func addLineWithStops(line: Line, stopList: [Stop]) {
+    public func addLineWithStops(line: Line, stopList: [Stop], companyInfo: CompanyInfo) {
         
         // The color of the line.
         let lineColor: UIColor = convertHexToUIColor(hex: line.color) ?? UIColor.black
@@ -138,7 +144,7 @@ class MapsFromApple: NSObject {
                     if stopId.id == stop.id {
                         if let doubleLat = Double(stop.lat), let doubleLng = Double(stop.lng) {
                             let coordinate: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: doubleLat, longitude: doubleLng)
-                            let customMarker: CustomMarker = CustomMarker(coordinate: coordinate, title: stop.name, subtitle: "", companyId: "", stopId: stop.id, color: lineColor)
+                            let customMarker: CustomMarker = CustomMarker(coordinate: coordinate, title: stop.name, subtitle: "", companyId: companyInfo.id, companyName: companyInfo.name, stopId: stop.id, color: lineColor)
                             
                             self.mapView?.addAnnotation(customMarker)
                         }
@@ -154,10 +160,10 @@ class MapsFromApple: NSObject {
     /// - Parameter lineList: A list of Line objects.
     /// - Parameter stopList: A list of Stop objects.
     ///
-    public func addLinesWithStops(lineList: [Line], stopList: [Stop]) {
+    public func addLinesWithStops(lineList: [Line], stopList: [Stop], companyInfo: CompanyInfo) {
         
         for line in lineList {
-            self.addLineWithStops(line: line, stopList: stopList)
+            self.addLineWithStops(line: line, stopList: stopList, companyInfo: companyInfo)
         }
     }
     
@@ -172,10 +178,10 @@ class MapsFromApple: NSObject {
         
         // If the company doens't have lines but has stops, print them.
         if (company.lines.isEmpty) && (!company.stops.isEmpty) {
-            self.addStops(stopList: company.stops, color: companyColor)
+            self.addStops(stopList: company.stops, companyInfo: company.info)
         } else {
             // Adds lines with it's stops.
-            self.addLinesWithStops(lineList: company.lines, stopList: company.stops)
+            self.addLinesWithStops(lineList: company.lines, stopList: company.stops, companyInfo: company.info)
         }
     }
     
@@ -215,7 +221,10 @@ extension MapsFromApple: MKMapViewDelegate {
     ///
     func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
         if let delegate = self.actionsDelegate {
-            delegate.showInfoPanel(text: view.annotation?.title ?? nil)
+            if let annotation = view.annotation, annotation.isKind(of: CustomMarker.self) {
+                let marker: CustomMarker = annotation as! CustomMarker
+                delegate.showInfoPanel(marker: marker)
+            }
         }
     }
     

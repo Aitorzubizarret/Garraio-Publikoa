@@ -56,6 +56,7 @@ class MapViewController: UIViewController {
     /// Gets  data from local JSON files.
     ///
     private func getLocalData() {
+        /*
         self.markerListViewModel.getCompany(filename: FileName.bilbobus)
     }
     
@@ -83,20 +84,21 @@ class MapViewController: UIViewController {
 /// MapsActions
 ///
 extension MapViewController: MapsActions {
-    func showInfoPanel(text: String?) {
+    func showInfoPanel(marker: CustomMarker?) {
         
         // Updates the label of the InfoPanel.
-        infoPanel.stopNameLabel.text = text
+        infoPanel.stopNameLabel.text = marker?.title
+        infoPanel.companyNameLabel.text = marker?.companyName
         
         // Animates the InfoPanel frame position to show the view.
-        UIView.animate(withDuration: 0.16) {
+        UIView.animate(withDuration: 0.24) {
             self.infoPanel.view.frame.origin.y = self.view.frame.height - 300
         }
     }
     
     func hideInfoPanel() {
         // // Animates the InfoPanel frame position to hide the view.
-        UIView.animate(withDuration: 0.16) {
+        UIView.animate(withDuration: 0.24) {
             self.infoPanel.view.frame.origin.y = self.view.frame.height
         }
     }
