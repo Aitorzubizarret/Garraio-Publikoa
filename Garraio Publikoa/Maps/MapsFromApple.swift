@@ -173,9 +173,6 @@ class MapsFromApple: NSObject {
     ///
     public func addCompany(company: Company) {
         
-        // Get Company's color.
-        let companyColor: UIColor = convertHexToUIColor(hex: company.info.color) ?? UIColor.black
-        
         // If the company doens't have lines but has stops, print them.
         if (company.lines.isEmpty) && (!company.stops.isEmpty) {
             self.addStops(stopList: company.stops, companyInfo: company.info)
